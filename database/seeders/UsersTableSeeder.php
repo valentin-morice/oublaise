@@ -17,10 +17,12 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        User::create([
-            'name' => 'admin',
-            'email' => 'admin@email.com',
-            'password' => Hash::make('admin'),
-        ]);
+        if (App::environment('local')) {
+            User::create([
+                'name' => 'admin',
+                'email' => 'admin@email.com',
+                'password' => Hash::make('admin'),
+            ]);
+        }
     }
 }
