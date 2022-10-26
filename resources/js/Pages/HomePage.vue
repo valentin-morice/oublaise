@@ -3,34 +3,35 @@
         <div class="hero-content md:py-20 lg:py-0 lg:px-32 flex-col lg:flex-row">
             <img class="max-w-xs rounded-lg shadow-2xl" src="/img/castle.jpg"/>
             <div class="lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center">
-                <h1 class="text-3xl lg:text-5xl font-bold">Lorem Ipsum</h1>
+                <h1 class="text-3xl lg:text-5xl font-bold">Domaine d'Oublaise</h1>
                 <p class="py-6 md:px-32 lg:px-0">
-                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                    excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    Découvrez un domaine d’exception, qui a su se démarquer a travers les ages. Oublaise et son domaine
+                    sont un havre de paix situé au coeur de l'Indre.
                 </p>
-                <button class="btn btn-primary">Get Started</button>
+                <Link href="/history">
+                    <button class="btn btn-primary">En Savoir Plus</button>
+                </Link>
             </div>
         </div>
     </div>
     <div class="container mx-auto my-32 lg:px-16 px-4">
         <div class="lg:px-64 md:px-16 lg:text-center">
-            <h2 class="lg:text-4xl text-3xl font-bold">Lorem Ipsum</h2>
+            <h2 class="lg:text-4xl text-3xl font-bold">Une Expérience Unique</h2>
             <p class="pt-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex
-                fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis perferendis
-                sit soluta voluptates.
+                Le château d’Oublaise constitue un héritage remarquable. Vieux de plusieurs siècles, il a abrité au fil
+                du temps nombre de différentes familles et communautés. Apprenez-en plus sur son histoire, et participez
+                à sa conservation dès à présent
             </p>
         </div>
     </div>
     <div class="bg-base-200 py-32 lg:px-16">
         <div class="grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4">
             <div class="order-2 lg:order-1 md:px-24 lg:px-0">
-                <h2 class="text-xl uppercase font-bold text-gray-700">Lorem Ipsum</h2>
+                <h2 class="text-xl uppercase font-bold text-gray-700">À Propos</h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex
-                    fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis
-                    perferendis
-                    sit soluta voluptates.
+                    S’étendant sur une surface de plus de quatre-vingt hectares, le domaine d’Oublaise est d’une nature
+                    polyvalente. Ses terres cultivables sont présentement exploitées par les propriétaires, et le
+                    château abrite un temple Hare Krishna accueillant chaque jour de nombreux visiteurs.
                 </p>
             </div>
             <img
@@ -41,12 +42,11 @@
     <div class="py-32 lg:px-16">
         <div class="grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4">
             <div class="order-2 md:px-24 lg:px-0">
-                <h2 class="text-xl uppercase font-bold text-gray-700">Lorem Ipsum</h2>
+                <h2 class="text-xl uppercase font-bold text-gray-700">Le Château Aujourd’hui</h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex
-                    fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis
-                    perferendis
-                    sit soluta voluptates.
+                    De nombreuses rénovations sont aujourd’hui nécessaires pour préserver tant le château que le domaine
+                    qui lui est associé, pour garantir la sécurité des invités et permettre aux generations futures de
+                    bénéficier de ce lieu hors-norme.
                 </p>
             </div>
             <img
@@ -57,9 +57,11 @@
     <div class="hero py-32 bg-base-200">
         <div class="hero-content flex-col lg:px-16 lg:flex-row-reverse">
             <div class="lg:ml-10 md:px-24 mb-8 lg:mb-0 lg:px-0">
-                <h2 class="text-xl uppercase font-bold text-gray-700">Lorem Ipsum</h2>
-                <p class="py-3">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <h2 class="text-xl uppercase font-bold text-gray-700">Nous Contacter</h2>
+                <p class="py-3">
+                    Vous avez une question, une suggestion, où souhaitez engager votre temps au service du domaine ?
+                    N'hésitez pas à nous contacter via le formulaire ci-contre.
+                </p>
             </div>
             <div class="card flex-shrink-0 w-full max-w-xs sm:max-w-sm md:max-w-md shadow-2xl bg-base-100">
                 <form class="card-body" @submit.prevent="submit">
