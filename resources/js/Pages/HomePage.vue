@@ -5,7 +5,7 @@
             <div class="lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center">
                 <h1 class="text-3xl lg:text-5xl font-bold">Domaine d'Oublaise</h1>
                 <p class="py-6 md:px-32 lg:px-0">
-                    Découvrez un domaine d’exception, qui a su se démarquer a travers les ages. Oublaise et son domaine
+                    Découvrez un domaine d’exception, qui a su se démarquer à travers les âges. Oublaise et son domaine
                     sont un havre de paix situé au coeur de l'Indre.
                 </p>
                 <Link href="/history">

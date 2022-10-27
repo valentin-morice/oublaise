@@ -22886,7 +22886,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-16 bg-base-200\"><div class=\"hero-content lg:px-32 flex-col lg:flex-row\"><img class=\"max-w-xs md:max-w-sm rounded-lg shadow-2xl\" src=\"/img/castle_old.jpg\"><div class=\"lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center\"><h1 class=\"text-3xl lg:text-5xl font-bold\">L&#39;Histoire d&#39;Oublaise</h1><p class=\"pt-6 md:px-32 lg:px-0\"> Situé à moins de 3 heures de Paris, le domaine d&#39;Oublaise est un lieu chargé de mémoire. Apprenez-en plus sur cette atypique propriété. </p></div></div></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-16 bg-base-200\"><div class=\"hero-content lg:px-32 flex-col lg:flex-row\"><img class=\"max-w-xs md:max-w-sm rounded-lg shadow-2xl\" src=\"/img/castle_old.jpg\"><div class=\"lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center\"><h1 class=\"text-3xl lg:text-5xl font-bold\">L&#39;Histoire d&#39;Oublaise</h1><p class=\"pt-6 md:px-32 lg:px-0\"> Situé à moins de trois heures de Paris, le domaine d&#39;Oublaise est un lieu chargé de mémoire. Apprenez-en plus sur cette atypique propriété. </p></div></div></div>", 1);
 var _hoisted_2 = {
   "class": "pb-32 py-28 lg:px-10"
 };
@@ -22910,7 +22910,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, " Humanitarisme ", -1 /* HOISTED */);
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
-}, " Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée francaise. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en situations précaires. Il se sépara du château à l'âge de 80 ans. ", -1 /* HOISTED */);
+}, " Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée française. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en situations précaires. Il se sépara du château à l'âge de 80 ans. ", -1 /* HOISTED */);
 var _hoisted_10 = {
   "class": "order-2 lg:order-1 md:px-24 lg:px-0"
 };
@@ -22920,7 +22920,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
 }, " Le Mouvement Hare Krishna a pris possession du domaine en 1974, et le maintient jusqu'à ce jour. De nombreux travaux ont été entamés pour sauvegarder ce lieu unique et multiculturel, qui est ouvert au public tout au long de la semaine. ", -1 /* HOISTED */);
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Lorem Ipsum </h2><p class=\"pt-3\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis perferendis sit soluta voluptates. </p></div><img class=\"order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/cows.jpg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Lorem Ipsum </h2><p class=\"pt-3\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis perferendis sit soluta voluptates. </p></div><img class=\"order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/forest.jpg\"></div></div>", 2);
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Architecture </h2><p class=\"pt-3\"> Le château est construit dans le style Néo-Renaissance, et possède une somptueuse marqueterie de bois sur chacun de ses trois étages, des colonnes de marbre finement sculptés, et même sa propre petite chapelle avec ses vitraux. Une visite à ne pas manquer ! </p></div><img class=\"order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/cows.jpg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Domaine &amp; Alentours </h2><p class=\"pt-3\"> Le domaine d&#39;Oublaise se situe dans la campagne du Centre-Val de Loire, qui comporte un grand nombre de sites historiques, tels que des villages médiévaux et des châteaux. La région fut très appréciée par la noblesse et la royauté française, notamment au 15ème siècle. </p></div><img class=\"order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/forest.jpg\"></div></div>", 2);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
@@ -22968,7 +22968,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, "Domaine d'Oublaise", -1 /* HOISTED */);
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "py-6 md:px-32 lg:px-0"
-}, " Découvrez un domaine d’exception, qui a su se démarquer a travers les ages. Oublaise et son domaine sont un havre de paix situé au coeur de l'Indre. ", -1 /* HOISTED */);
+}, " Découvrez un domaine d’exception, qui a su se démarquer à travers les âges. Oublaise et son domaine sont un havre de paix situé au coeur de l'Indre. ", -1 /* HOISTED */);
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "btn btn-primary"
 }, "En Savoir Plus", -1 /* HOISTED */);
@@ -23270,15 +23270,15 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "text-center lg:ml-4 lg:text-left"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "lg:text-5xl text-3xl font-bold"
-}, "Lorem Ipsum"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+}, "Faire Un Don"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "py-6 md:px-24 lg:px-0"
-}, "Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.")], -1 /* HOISTED */);
+}, " Le domaine est maintenu grace aux génereux dons éffectués tout au long de l'année par nos visiteurs. Chaque contribution est grandement appreciée. ")], -1 /* HOISTED */);
 var _hoisted_4 = {
   "class": "shadow-lg bg-white md:w-1/2 mx-auto p-4 rounded-xl"
 };
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "font-bold text-xl text-gray-700 mb-4"
-}, "Your Donation", -1 /* HOISTED */);
+}, "Votre Donation", -1 /* HOISTED */);
 var _hoisted_6 = {
   key: 0,
   "class": "mt-1 text-sm text-red-500"
@@ -23316,7 +23316,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       precision: 2
     },
     "class": "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
-    placeholder: "Amount"
+    placeholder: "Montant"
   }, null, 8 /* PROPS */, ["modelValue"]), $setup.form.errors.amount ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.amount), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
       return $setup.form.first_name = $event;
@@ -23324,7 +23324,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
     name: "first_name",
     pattern: "^[a-zA-Z_]+( [a-zA-Z_]+)*$",
-    placeholder: "First Name",
+    placeholder: "Prénom",
     type: "text"
   }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.first_name]]), $setup.form.errors.first_name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.first_name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
@@ -23333,7 +23333,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
     name: "last_name",
     pattern: "^[a-zA-Z_]+( [a-zA-Z_]+)*$",
-    placeholder: "Last Name",
+    placeholder: "Nom",
     type: "text"
   }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.last_name]]), $setup.form.errors.last_name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.last_name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
@@ -23341,13 +23341,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "class": "mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
     name: "email",
-    placeholder: "Your Email",
+    placeholder: "Email",
     type: "email"
   }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]]), $setup.form.errors.email ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.email), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     disabled: $setup.form.processing,
     "class": "bg-blue-500 w-full my-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
     type: "submit"
-  }, "Next ", 8 /* PROPS */, _hoisted_10)], 32 /* HYDRATE_EVENTS */)])])]);
+  }, "Confirmer ", 8 /* PROPS */, _hoisted_10)], 32 /* HYDRATE_EVENTS */)])])]);
 }
 
 /***/ }),
@@ -23374,12 +23374,12 @@ var _hoisted_1 = {
 var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "font-bold text-xl text-gray-700 mb-2"
-  }, "Pay Now", -1 /* HOISTED */);
+  }, "Payer Maintenant", -1 /* HOISTED */);
 });
 var _hoisted_3 = {
   "class": "mb-4"
 };
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"payment-element\" data-v-60f31952><!--Stripe.js injects the Payment Element--></div><button id=\"submit\" data-v-60f31952><div id=\"spinner\" class=\"spinner hidden\" data-v-60f31952></div><span id=\"button-text\" data-v-60f31952>Pay Now</span></button><div id=\"payment-message\" class=\"hidden\" data-v-60f31952></div>", 3);
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div id=\"payment-element\" data-v-60f31952><!--Stripe.js injects the Payment Element--></div><button id=\"submit\" data-v-60f31952><div id=\"spinner\" class=\"spinner hidden\" data-v-60f31952></div><span id=\"button-text\" data-v-60f31952>Payer</span></button><div id=\"payment-message\" class=\"hidden\" data-v-60f31952></div>", 3);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     id: "payment-form",
@@ -23387,7 +23387,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onSubmit: _cache[0] || (_cache[0] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.submit && $options.submit.apply($options, arguments);
     }, ["prevent"]))
-  }, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Thank you, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.donation.first_name + ' ' + $props.donation.last_name) + ".", 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_3, "Your Donation: €" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.displayAmount($props.donation.amount)), 1 /* TEXT */), _hoisted_4], 32 /* HYDRATE_EVENTS */)]);
+  }, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Merci, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.donation.first_name + ' ' + $props.donation.last_name) + ".", 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_3, "Votre Donation: €" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.displayAmount($props.donation.amount)), 1 /* TEXT */), _hoisted_4], 32 /* HYDRATE_EVENTS */)]);
 }
 
 /***/ }),
@@ -23615,10 +23615,10 @@ var _hoisted_2 = {
 };
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "text-center pt-3 font-bold text-xl text-gray-700 mb-2"
-}, "Payment Successful!", -1 /* HOISTED */);
+}, "Payment Effectué!", -1 /* HOISTED */);
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center"
-}, "Thank your for your support.", -1 /* HOISTED */);
+}, "Merci pour votre soutien.", -1 /* HOISTED */);
 var _hoisted_5 = {
   "class": "bg-gray-100"
 };
@@ -23627,7 +23627,7 @@ var _hoisted_6 = {
 };
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-sm text-gray-600"
-}, "Amount", -1 /* HOISTED */);
+}, "Montant", -1 /* HOISTED */);
 var _hoisted_8 = {
   "class": "text-sm text-gray-600"
 };
@@ -23636,7 +23636,7 @@ var _hoisted_9 = {
 };
 var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-sm text-gray-600"
-}, "Name", -1 /* HOISTED */);
+}, "Nom", -1 /* HOISTED */);
 var _hoisted_11 = {
   "class": "text-sm text-gray-600"
 };
@@ -23645,14 +23645,14 @@ var _hoisted_12 = {
 };
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-sm text-gray-600"
-}, "Payment ID", -1 /* HOISTED */);
+}, "Réference Paiement", -1 /* HOISTED */);
 var _hoisted_14 = {
   "class": "text-sm text-gray-600"
 };
 var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "bg-blue-500 w-full mt-8 block hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
   type: "submit"
-}, "Go Back ", -1 /* HOISTED */);
+}, "Retour À l'Accueil ", -1 /* HOISTED */);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");

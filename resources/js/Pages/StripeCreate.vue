@@ -1,15 +1,15 @@
 <template>
     <div class="hero min-h-screen bg-base-200">
         <form id="payment-form" class="bg-white block mx-auto my-8" @submit.prevent="submit">
-            <h1 class="font-bold text-xl text-gray-700 mb-2">Pay Now</h1>
-            <p>Thank you, {{ donation.first_name + ' ' + donation.last_name }}.</p>
-            <p class="mb-4">Your Donation: €{{ displayAmount(donation.amount) }}</p>
+            <h1 class="font-bold text-xl text-gray-700 mb-2">Payer Maintenant</h1>
+            <p>Merci, {{ donation.first_name + ' ' + donation.last_name }}.</p>
+            <p class="mb-4">Votre Donation: €{{ displayAmount(donation.amount) }}</p>
             <div id="payment-element">
                 <!--Stripe.js injects the Payment Element-->
             </div>
             <button id="submit">
                 <div id="spinner" class="spinner hidden"></div>
-                <span id="button-text">Pay Now</span>
+                <span id="button-text">Payer</span>
             </button>
             <div id="payment-message" class="hidden"></div>
         </form>

@@ -8,8 +8,8 @@
             <div class="lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center">
                 <h1 class="text-3xl lg:text-5xl font-bold">L'Histoire d'Oublaise</h1>
                 <p class="pt-6 md:px-32 lg:px-0">
-                    Situé à moins de 3 heures de Paris, le domaine d'Oublaise est un lieu chargé de mémoire. Apprenez-en
-                    plus sur cette atypique propriété.
+                    Situé à moins de trois heures de Paris, le domaine d'Oublaise est un lieu chargé de mémoire.
+                    Apprenez-en plus sur cette atypique propriété.
                 </p>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 </h2>
                 <p class="pt-3">
                     Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée
-                    francaise. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en
+                    française. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en
                     situations précaires. Il se sépara du château à l'âge de 80 ans.
                 </p>
             </div>
@@ -68,13 +68,12 @@
         >
             <div class="order-2 lg:order-1 md:px-24 lg:px-0">
                 <h2 class="text-xl uppercase font-bold text-gray-700">
-                    Lorem Ipsum
+                    Architecture
                 </h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                    accusantium asperiores eum ex fugiat incidunt itaque numquam
-                    sint unde. A cum incidunt necessitatibus nesciunt nihil
-                    omnis perferendis sit soluta voluptates.
+                    Le château est construit dans le style Néo-Renaissance, et possède une somptueuse marqueterie de
+                    bois sur chacun de ses trois étages, des colonnes de marbre finement sculptés, et même sa propre
+                    petite chapelle avec ses vitraux. Une visite à ne pas manquer !
                 </p>
             </div>
             <img
@@ -89,13 +88,12 @@
         >
             <div class="order-2 md:px-24 lg:px-0">
                 <h2 class="text-xl uppercase font-bold text-gray-700">
-                    Lorem Ipsum
+                    Domaine & Alentours
                 </h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                    accusantium asperiores eum ex fugiat incidunt itaque numquam
-                    sint unde. A cum incidunt necessitatibus nesciunt nihil
-                    omnis perferendis sit soluta voluptates.
+                    Le domaine d'Oublaise se situe dans la campagne du Centre-Val de Loire, qui comporte un grand nombre
+                    de sites historiques, tels que des villages médiévaux et des châteaux. La région fut très appréciée
+                    par la noblesse et la royauté française, notamment au 15ème siècle.
                 </p>
             </div>
             <img
