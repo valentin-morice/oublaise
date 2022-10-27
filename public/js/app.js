@@ -22910,7 +22910,7 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, " Humanitarisme ", -1 /* HOISTED */);
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
-}, " Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée française. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en situations précaires. Il se sépara du château à l'âge de 80 ans. ", -1 /* HOISTED */);
+}, " Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée française. Il en fit un lieu destiné à réhabiliter les veterans de guerre et les personnes en situations précaires. Il se sépara du château à l'âge de 80 ans. ", -1 /* HOISTED */);
 var _hoisted_10 = {
   "class": "order-2 lg:order-1 md:px-24 lg:px-0"
 };

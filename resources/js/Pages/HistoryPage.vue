@@ -42,7 +42,7 @@
                 </h2>
                 <p class="pt-3">
                     Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée
-                    française. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en
+                    française. Il en fit un lieu destiné à réhabiliter les veterans de guerre et les personnes en
                     situations précaires. Il se sépara du château à l'âge de 80 ans.
                 </p>
             </div>
