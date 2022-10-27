@@ -12,7 +12,7 @@
                 <ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                     tabindex="0">
                     <li>
-                        <Link href="/">Home</Link>
+                        <Link href="/">Accueil</Link>
                     </li>
                     <li>
                         <Link href="/payment/create">Donation</Link>
@@ -30,7 +30,7 @@
         <div class="navbar-end hidden lg:flex">
             <ul class="menu menu-horizontal space-x-1 p-0">
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/">Accueil</Link>
                 </li>
                 <li>
                     <Link href="/payment/create">Donation</Link>

@@ -6,12 +6,10 @@
                 src="/img/castle_old.jpg"
             />
             <div class="lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center">
-                <h1 class="text-3xl lg:text-5xl font-bold">Lorem Ipsum</h1>
+                <h1 class="text-3xl lg:text-5xl font-bold">L'Histoire d'Oublaise</h1>
                 <p class="pt-6 md:px-32 lg:px-0">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Assumenda autem cum dolorum, fugiat harum in inventore,
-                    laudantium minus obcaecati odit porro repellat sint sit
-                    velit!
+                    Situé à moins de 3 heures de Paris, le domaine d'Oublaise est un lieu chargé de mémoire. Apprenez-en
+                    plus sur cette atypique propriété.
                 </p>
             </div>
         </div>
@@ -26,40 +24,40 @@
                     name="home-outline"
                 ></ion-icon>
                 <h2 class="text-xl uppercase font-bold text-gray-700">
-                    Lorem Ipsum
+                    Les Origines
                 </h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                    accusantium asperiores eum ex fugiat incidunt itaque numquam
-                    sint unde. A cum incidunt.
+                    Le château fut bâti par le Marquis de Préaux au XIXème siècle, sur les fondations d’un château plus
+                    ancien. Pendant 10 ans, il sert de refuge pour un collège déplacé de la région parisienne pour
+                    éviter les bombardements durant la Seconde Guerre mondiale.
                 </p>
             </div>
             <div class="order-2 lg:order-1 md:px-24 lg:px-0 mb-24 lg:mb-0">
                 <ion-icon
                     class="mx-auto block text-gray-700 font-bold text-4xl bg-base-200 p-4 rounded-xl mb-16"
-                    name="medal-outline"
+                    name="heart-outline"
                 ></ion-icon>
                 <h2 class="text-xl uppercase font-bold text-gray-700">
-                    Lorem Ipsum
+                    Humanitarisme
                 </h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                    accusantium asperiores eum ex fugiat incidunt itaque numquam
-                    sint unde. A cum incidunt necessitatibus nesciunt.
+                    Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée
+                    francaise. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en
+                    situations précaires. Il se sépara du château à l'âge de 80 ans.
                 </p>
             </div>
             <div class="order-2 lg:order-1 md:px-24 lg:px-0">
                 <ion-icon
                     class="mx-auto block text-gray-700 font-bold text-4xl bg-base-200 p-4 rounded-xl mb-16"
-                    name="star-outline"
+                    name="hammer-outline"
                 ></ion-icon>
                 <h2 class="text-xl uppercase font-bold text-gray-700">
-                    Lorem Ipsum
+                    À Nos Jours
                 </h2>
                 <p class="pt-3">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                    accusantium asperiores eum ex fugiat incidunt itaque numquam
-                    sint unde. A cum incidunt necessitatibus.
+                    Le Mouvement Hare Krishna a pris possession du domaine en 1974, et le maintient jusqu'à ce jour. De
+                    nombreux travaux ont été entamés pour sauvegarder ce lieu unique et multiculturel, qui est ouvert au
+                    public tout au long de la semaine.
                 </p>
             </div>
         </div>

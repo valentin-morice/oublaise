@@ -22023,7 +22023,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_0__.Link
+  }
+});
 
 /***/ }),
 
@@ -22690,10 +22696,67 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "footer p-10 md:py-20 bg-gray-700 text-base-content"
 };
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mx-auto\"><svg class=\"fill-gray-100\" clip-rule=\"evenodd\" fill-rule=\"evenodd\" height=\"50\" viewBox=\"0 0 24 24\" width=\"50\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z\"></path></svg><p class=\"text-gray-100\">ACME Industries Ltd.<br>Providing reliable tech since 1992</p></div><div class=\"text-gray-100\"><span class=\"footer-title\">Services</span><a class=\"link link-hover\">Branding</a><a class=\"link link-hover\">Design</a><a class=\"link link-hover\">Marketing</a><a class=\"link link-hover\">Advertisement</a></div><div class=\"text-gray-100\"><span class=\"footer-title\">Company</span><a class=\"link link-hover\">About us</a><a class=\"link link-hover\">Contact</a><a class=\"link link-hover\">Jobs</a><a class=\"link link-hover\">Press kit</a></div><div class=\"text-gray-100\"><span class=\"footer-title\">Legal</span><a class=\"link link-hover\">Terms of use</a><a class=\"link link-hover\">Privacy policy</a><a class=\"link link-hover\">Cookie policy</a></div>", 4);
-var _hoisted_6 = [_hoisted_2];
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "mx-auto"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+  "class": "fill-gray-100",
+  "clip-rule": "evenodd",
+  "fill-rule": "evenodd",
+  height: "50",
+  viewBox: "0 0 24 24",
+  width: "50",
+  xmlns: "http://www.w3.org/2000/svg"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  d: "M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-gray-100"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Domaine d'Oublaise"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Un domaine d'exception, au coeur de l'Indre.")])], -1 /* HOISTED */);
+var _hoisted_3 = {
+  "class": "text-gray-100"
+};
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "footer-title"
+}, "Navigation", -1 /* HOISTED */);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Accueil");
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Histoire");
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Donation");
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Admin");
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-gray-100\"><span class=\"footer-title\">Nos Services</span><a class=\"link link-hover\" href=\"https://newmayapur.com\">New Mayapur</a><a class=\"link link-hover\" href=\"https://govindas.fr\">Govinda&#39;s</a></div><div class=\"text-gray-100\"><span class=\"footer-title\">Legal</span><a class=\"link link-hover\">Politique de Confidentialité</a></div>", 2);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, _hoisted_6);
+  var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "link link-hover",
+    href: "/"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_5];
+    }),
+    _: 1 /* STABLE */
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "link link-hover",
+    href: "/history"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_6];
+    }),
+    _: 1 /* STABLE */
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "link link-hover",
+    href: "/payment/create"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_7];
+    }),
+    _: 1 /* STABLE */
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    "class": "link link-hover",
+    href: "/login"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_8];
+    }),
+    _: 1 /* STABLE */
+  })]), _hoisted_9]);
 }
 
 /***/ }),
@@ -22739,7 +22802,7 @@ var _hoisted_5 = {
   "class": "menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52",
   tabindex: "0"
 };
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Home");
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Accueil");
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Donation");
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Histoire");
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -22751,7 +22814,7 @@ var _hoisted_10 = {
 var _hoisted_11 = {
   "class": "menu menu-horizontal space-x-1 p-0"
 };
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Home");
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Accueil");
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Donation");
 var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Histoire");
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -22823,7 +22886,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-16 bg-base-200\"><div class=\"hero-content lg:px-32 flex-col lg:flex-row\"><img class=\"max-w-xs md:max-w-sm rounded-lg shadow-2xl\" src=\"/img/castle_old.jpg\"><div class=\"lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center\"><h1 class=\"text-3xl lg:text-5xl font-bold\">Lorem Ipsum</h1><p class=\"pt-6 md:px-32 lg:px-0\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem cum dolorum, fugiat harum in inventore, laudantium minus obcaecati odit porro repellat sint sit velit! </p></div></div></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-16 bg-base-200\"><div class=\"hero-content lg:px-32 flex-col lg:flex-row\"><img class=\"max-w-xs md:max-w-sm rounded-lg shadow-2xl\" src=\"/img/castle_old.jpg\"><div class=\"lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center\"><h1 class=\"text-3xl lg:text-5xl font-bold\">L&#39;Histoire d&#39;Oublaise</h1><p class=\"pt-6 md:px-32 lg:px-0\"> Situé à moins de 3 heures de Paris, le domaine d&#39;Oublaise est un lieu chargé de mémoire. Apprenez-en plus sur cette atypique propriété. </p></div></div></div>", 1);
 var _hoisted_2 = {
   "class": "pb-32 py-28 lg:px-10"
 };
@@ -22835,28 +22898,28 @@ var _hoisted_4 = {
 };
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-xl uppercase font-bold text-gray-700"
-}, " Lorem Ipsum ", -1 /* HOISTED */);
+}, " Les Origines ", -1 /* HOISTED */);
 var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
-}, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt. ", -1 /* HOISTED */);
+}, " Le château fut bâti par le Marquis de Préaux au XIXème siècle, sur les fondations d’un château plus ancien. Pendant 10 ans, il sert de refuge pour un collège déplacé de la région parisienne pour éviter les bombardements durant la Seconde Guerre mondiale. ", -1 /* HOISTED */);
 var _hoisted_7 = {
   "class": "order-2 lg:order-1 md:px-24 lg:px-0 mb-24 lg:mb-0"
 };
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-xl uppercase font-bold text-gray-700"
-}, " Lorem Ipsum ", -1 /* HOISTED */);
+}, " Humanitarisme ", -1 /* HOISTED */);
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
-}, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt. ", -1 /* HOISTED */);
+}, " Le domaine d'Oublaise fut ensuite acquis par Jean-Francois Perrette, ancien commandant de l'armée francaise. Il en fit un lieu destine à réhabiliter les veterans de guerre et les personnes en situations précaires. Il se sépara du château à l'âge de 80 ans. ", -1 /* HOISTED */);
 var _hoisted_10 = {
   "class": "order-2 lg:order-1 md:px-24 lg:px-0"
 };
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-xl uppercase font-bold text-gray-700"
-}, " Lorem Ipsum ", -1 /* HOISTED */);
+}, " À Nos Jours ", -1 /* HOISTED */);
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
-}, " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus. ", -1 /* HOISTED */);
+}, " Le Mouvement Hare Krishna a pris possession du domaine en 1974, et le maintient jusqu'à ce jour. De nombreux travaux ont été entamés pour sauvegarder ce lieu unique et multiculturel, qui est ouvert au public tout au long de la semaine. ", -1 /* HOISTED */);
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Lorem Ipsum </h2><p class=\"pt-3\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis perferendis sit soluta voluptates. </p></div><img class=\"order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/cows.jpg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Lorem Ipsum </h2><p class=\"pt-3\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium asperiores eum ex fugiat incidunt itaque numquam sint unde. A cum incidunt necessitatibus nesciunt nihil omnis perferendis sit soluta voluptates. </p></div><img class=\"order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/forest.jpg\"></div></div>", 2);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
@@ -22865,10 +22928,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     name: "home-outline"
   }), _hoisted_5, _hoisted_6]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     "class": "mx-auto block text-gray-700 font-bold text-4xl bg-base-200 p-4 rounded-xl mb-16",
-    name: "medal-outline"
+    name: "heart-outline"
   }), _hoisted_8, _hoisted_9]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     "class": "mx-auto block text-gray-700 font-bold text-4xl bg-base-200 p-4 rounded-xl mb-16",
-    name: "star-outline"
+    name: "hammer-outline"
   }), _hoisted_11, _hoisted_12])])]), _hoisted_13], 64 /* STABLE_FRAGMENT */);
 }
 
@@ -22967,7 +23030,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "btn btn-primary",
   type: "submit"
-}, "Send")], -1 /* HOISTED */);
+}, "Envoyer")], -1 /* HOISTED */);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
@@ -22989,7 +23052,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "class": "input input-bordered",
     name: "name",
-    placeholder: "Name",
+    placeholder: "Nom",
     type: "text"
   }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.name]])]), $setup.form.errors.name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
@@ -23005,7 +23068,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "class": "textarea text-base textarea-bordered placeholder:text-base resize-none",
     name: "message",
-    placeholder: "Your Message",
+    placeholder: "Message",
     rows: "4"
   }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.message]])]), $setup.form.errors.message ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.message), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_23], 32 /* HYDRATE_EVENTS */)])])])], 64 /* STABLE_FRAGMENT */);
 }

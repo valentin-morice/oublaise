@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div class="form-control">
-                        <input v-model="form.name" class="input input-bordered" name="name" placeholder="Name"
+                        <input v-model="form.name" class="input input-bordered" name="name" placeholder="Nom"
                                type="text"/>
                     </div>
                     <p v-if="form.errors.name" class="-mt-1 text-sm text-red-500">{{ form.errors.name }}</p>
@@ -91,11 +91,11 @@
                         <textarea v-model="form.message"
                                   class="textarea text-base textarea-bordered placeholder:text-base resize-none"
                                   name="message"
-                                  placeholder="Your Message" rows="4"></textarea>
+                                  placeholder="Message" rows="4"></textarea>
                     </div>
                     <p v-if="form.errors.message" class="-mt-1 text-sm text-red-500">{{ form.errors.message }}</p>
                     <div class="form-control mt-6">
-                        <button class="btn btn-primary" type="submit">Send</button>
+                        <button class="btn btn-primary" type="submit">Envoyer</button>
                     </div>
                 </form>
             </div>
