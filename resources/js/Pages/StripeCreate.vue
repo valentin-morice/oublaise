@@ -1,9 +1,17 @@
 <template>
     <div class="hero min-h-screen bg-base-200">
-        <form id="payment-form" class="bg-white block mx-auto my-8" @submit.prevent="submit">
-            <h1 class="font-bold text-xl text-gray-700 mb-2">Payer Maintenant</h1>
-            <p>Merci, {{ donation.first_name + ' ' + donation.last_name }}.</p>
-            <p class="mb-4">Votre Donation: €{{ displayAmount(donation.amount) }}</p>
+        <form
+            id="payment-form"
+            class="bg-white block mx-auto my-8"
+            @submit.prevent="submit"
+        >
+            <h1 class="font-bold text-xl text-gray-700 mb-2">
+                Payer Maintenant
+            </h1>
+            <p>Merci, {{ donation.first_name + " " + donation.last_name }}.</p>
+            <p class="mb-4">
+                Votre Donation: €{{ displayAmount(donation.amount) }}
+            </p>
             <div id="payment-element">
                 <!--Stripe.js injects the Payment Element-->
             </div>
@@ -17,21 +25,21 @@
 </template>
 
 <script>
-import {Link} from "@inertiajs/inertia-vue3";
+import { Link } from "@inertiajs/inertia-vue3";
 import Base from "./Layout/Base";
 
 export default {
     layout: Base,
     components: {
-        Link
+        Link,
     },
     data() {
         return {
             elements: null,
-            stripe: Stripe(this.donation.stripePK)
-        }
+            stripe: Stripe(this.donation.stripePK),
+        };
     },
-    props: ['donation'],
+    props: ["donation"],
     mounted() {
         const donation = {
             amount: this.donation.amount,
@@ -39,7 +47,7 @@ export default {
             last_name: this.donation.last_name,
             email: this.donation.email,
             stripePK: this.donation.stripePK,
-        }
+        };
         initialize();
         checkStatus();
 
@@ -47,13 +55,13 @@ export default {
 
         // Fetches a payment intent and captures the client secret
         async function initialize() {
-            const {clientSecret} = await fetch("/stripe/create", {
+            const { clientSecret } = await fetch("/stripe/create", {
                 method: "POST",
-                headers: {"Content-Type": "application/json"},
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(donation),
             }).then((r) => r.json());
 
-            vm.elements = vm.stripe.elements({clientSecret});
+            vm.elements = vm.stripe.elements({ clientSecret });
 
             const paymentElement = vm.elements.create("payment");
             paymentElement.mount("#payment-element");
@@ -61,15 +69,17 @@ export default {
 
         // Fetches the payment intent status after payment submission
         async function checkStatus() {
-            const clientSecret = new URLSearchParams(window.location.search).get(
-                "payment_intent_client_secret"
-            );
+            const clientSecret = new URLSearchParams(
+                window.location.search
+            ).get("payment_intent_client_secret");
 
             if (!clientSecret) {
                 return;
             }
 
-            const {paymentIntent} = await vm.stripe.retrievePaymentIntent(clientSecret);
+            const { paymentIntent } = await vm.stripe.retrievePaymentIntent(
+                clientSecret
+            );
 
             switch (paymentIntent.status) {
                 case "succeeded":
@@ -79,7 +89,9 @@ export default {
                     showMessage("Your payment is processing.");
                     break;
                 case "requires_payment_method":
-                    showMessage("Your payment was not successful, please try again.");
+                    showMessage(
+                        "Your payment was not successful, please try again."
+                    );
                     break;
                 default:
                     showMessage("Something went wrong.");
@@ -90,11 +102,11 @@ export default {
     methods: {
         displayAmount(amount) {
             if (this.countDecimals(amount) === 2) {
-                return amount
+                return amount;
             } else if (this.countDecimals(amount) === 1) {
-                return amount + '0'
+                return amount + "0";
             } else if (this.countDecimals(amount) === 0) {
-                return amount + '.00'
+                return amount + ".00";
             }
         },
         countDecimals(value) {
@@ -121,7 +133,9 @@ export default {
             } else {
                 document.querySelector("#submit").disabled = false;
                 document.querySelector("#spinner").classList.add("hidden");
-                document.querySelector("#button-text").classList.remove("hidden");
+                document
+                    .querySelector("#button-text")
+                    .classList.remove("hidden");
             }
         },
         getElements() {
@@ -131,15 +145,22 @@ export default {
             const vm = this;
 
             async function handleSubmit() {
-
                 vm.setLoading(true);
-                const elements = vm.getElements()
+                const elements = vm.getElements();
 
-                const {error} = await vm.stripe.confirmPayment({
+                const mail = vm.donation.email;
+
+                const { error } = await vm.stripe.confirmPayment({
                     elements,
                     confirmParams: {
                         // Make sure to change this to your payment completion page
-                        return_url: window.location.protocol + "//" + window.location.host + "/" + "stripe/success",
+                        return_url:
+                            window.location.protocol +
+                            "//" +
+                            window.location.host +
+                            "/" +
+                            "stripe/success",
+                        receipt_email: mail,
                     },
                 });
 
@@ -148,7 +169,10 @@ export default {
                 // your `return_url`. For some payment methods like iDEAL, your customer will
                 // be redirected to an intermediate site first to authorize the payment, then
                 // redirected to the `return_url`.
-                if (error.type === "card_error" || error.type === "validation_error") {
+                if (
+                    error.type === "card_error" ||
+                    error.type === "validation_error"
+                ) {
                     vm.showMessage(error.message);
                 } else {
                     vm.showMessage("An unexpected error occurred.");
@@ -158,11 +182,10 @@ export default {
             }
 
             handleSubmit();
-        }
-    }
-}
+        },
+    },
+};
 </script>
-
 
 <style scoped>
 /* Variables */
@@ -186,7 +209,8 @@ form {
     min-width: 500px;
     align-self: center;
     box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
-    0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+        0px 2px 5px 0px rgba(50, 50, 93, 0.1),
+        0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
     border-radius: 7px;
     padding: 40px;
 }
