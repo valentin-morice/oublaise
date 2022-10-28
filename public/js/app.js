@@ -22299,7 +22299,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       stripe: Stripe(this.donation.stripePK)
     };
   },
-  props: ['donation'],
+  props: ["donation"],
   mounted: function mounted() {
     var donation = {
       amount: this.donation.amount,
@@ -22402,9 +22402,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       if (this.countDecimals(amount) === 2) {
         return amount;
       } else if (this.countDecimals(amount) === 1) {
-        return amount + '0';
+        return amount + "0";
       } else if (this.countDecimals(amount) === 0) {
-        return amount + '.00';
+        return amount + ".00";
       }
     },
     countDecimals: function countDecimals(value) {
@@ -22442,22 +22442,24 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       }
       function _handleSubmit() {
         _handleSubmit = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
-          var elements, _yield$vm$stripe$conf, error;
+          var elements, mail, _yield$vm$stripe$conf, error;
           return _regeneratorRuntime().wrap(function _callee3$(_context3) {
             while (1) {
               switch (_context3.prev = _context3.next) {
                 case 0:
                   vm.setLoading(true);
                   elements = vm.getElements();
-                  _context3.next = 4;
+                  mail = vm.donation.email;
+                  _context3.next = 5;
                   return vm.stripe.confirmPayment({
                     elements: elements,
                     confirmParams: {
                       // Make sure to change this to your payment completion page
-                      return_url: window.location.protocol + "//" + window.location.host + "/" + "stripe/success"
+                      return_url: window.location.protocol + "//" + window.location.host + "/" + "stripe/success",
+                      receipt_email: mail
                     }
                   });
-                case 4:
+                case 5:
                   _yield$vm$stripe$conf = _context3.sent;
                   error = _yield$vm$stripe$conf.error;
                   // This point will only be reached if there is an immediate error when
@@ -22471,7 +22473,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
                     vm.showMessage("An unexpected error occurred.");
                   }
                   vm.setLoading(false);
-                case 8:
+                case 9:
                 case "end":
                   return _context3.stop();
               }
@@ -23374,7 +23376,7 @@ var _hoisted_1 = {
 var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "font-bold text-xl text-gray-700 mb-2"
-  }, "Payer Maintenant", -1 /* HOISTED */);
+  }, " Payer Maintenant ", -1 /* HOISTED */);
 });
 var _hoisted_3 = {
   "class": "mb-4"
@@ -23387,7 +23389,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onSubmit: _cache[0] || (_cache[0] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.submit && $options.submit.apply($options, arguments);
     }, ["prevent"]))
-  }, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Merci, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.donation.first_name + ' ' + $props.donation.last_name) + ".", 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_3, "Votre Donation: €" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.displayAmount($props.donation.amount)), 1 /* TEXT */), _hoisted_4], 32 /* HYDRATE_EVENTS */)]);
+  }, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Merci, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.donation.first_name + " " + $props.donation.last_name) + ".", 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_3, " Votre Donation: €" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.displayAmount($props.donation.amount)), 1 /* TEXT */), _hoisted_4], 32 /* HYDRATE_EVENTS */)]);
 }
 
 /***/ }),
@@ -25844,7 +25846,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* Variables */\n*[data-v-60f31952] {\n    box-sizing: border-box;\n}\nbody[data-v-60f31952] {\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 16px;\n    -webkit-font-smoothing: antialiased;\n    display: flex;\n    justify-content: center;\n    align-content: center;\n    height: 100vh;\n    width: 100vw;\n}\nform[data-v-60f31952] {\n    width: 30vw;\n    min-width: 500px;\n    align-self: center;\n    box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),\n    0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);\n    border-radius: 7px;\n    padding: 40px;\n}\n.hidden[data-v-60f31952] {\n    display: none;\n}\n#payment-message[data-v-60f31952] {\n    color: rgb(105, 115, 134);\n    font-size: 16px;\n    line-height: 20px;\n    padding-top: 12px;\n    text-align: center;\n}\n#payment-element[data-v-60f31952] {\n    margin-bottom: 24px;\n}\n\n/* Buttons and links */\nbutton[data-v-60f31952] {\n    background: #5469d4;\n    font-family: Arial, sans-serif;\n    color: #ffffff;\n    border-radius: 4px;\n    border: 0;\n    padding: 12px 16px;\n    font-size: 16px;\n    font-weight: 600;\n    cursor: pointer;\n    display: block;\n    transition: all 0.2s ease;\n    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);\n    width: 100%;\n}\nbutton[data-v-60f31952]:hover {\n    filter: contrast(115%);\n}\nbutton[data-v-60f31952]:disabled {\n    opacity: 0.5;\n    cursor: default;\n}\n\n/* spinner/processing state, errors */\n.spinner[data-v-60f31952],\n.spinner[data-v-60f31952]:before,\n.spinner[data-v-60f31952]:after {\n    border-radius: 50%;\n}\n.spinner[data-v-60f31952] {\n    color: #ffffff;\n    font-size: 22px;\n    text-indent: -99999px;\n    margin: 0px auto;\n    position: relative;\n    width: 20px;\n    height: 20px;\n    box-shadow: inset 0 0 0 2px;\n    transform: translateZ(0);\n}\n.spinner[data-v-60f31952]:before,\n.spinner[data-v-60f31952]:after {\n    position: absolute;\n    content: \"\";\n}\n.spinner[data-v-60f31952]:before {\n    width: 10.4px;\n    height: 20.4px;\n    background: #5469d4;\n    border-radius: 20.4px 0 0 20.4px;\n    top: -0.2px;\n    left: -0.2px;\n    transform-origin: 10.4px 10.2px;\n    animation: loading-60f31952 2s infinite ease 1.5s;\n}\n.spinner[data-v-60f31952]:after {\n    width: 10.4px;\n    height: 10.2px;\n    background: #5469d4;\n    border-radius: 0 10.2px 10.2px 0;\n    top: -0.1px;\n    left: 10.2px;\n    transform-origin: 0px 10.2px;\n    animation: loading-60f31952 2s infinite ease;\n}\n@keyframes loading-60f31952 {\n0% {\n        transform: rotate(0deg);\n}\n100% {\n        transform: rotate(360deg);\n}\n}\n@media only screen and (max-width: 600px) {\nform[data-v-60f31952] {\n        width: 95vw;\n        padding: 20px;\n        min-width: initial;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n/* Variables */\n*[data-v-60f31952] {\n    box-sizing: border-box;\n}\nbody[data-v-60f31952] {\n    font-family: -apple-system, BlinkMacSystemFont, sans-serif;\n    font-size: 16px;\n    -webkit-font-smoothing: antialiased;\n    display: flex;\n    justify-content: center;\n    align-content: center;\n    height: 100vh;\n    width: 100vw;\n}\nform[data-v-60f31952] {\n    width: 30vw;\n    min-width: 500px;\n    align-self: center;\n    box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),\n        0px 2px 5px 0px rgba(50, 50, 93, 0.1),\n        0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);\n    border-radius: 7px;\n    padding: 40px;\n}\n.hidden[data-v-60f31952] {\n    display: none;\n}\n#payment-message[data-v-60f31952] {\n    color: rgb(105, 115, 134);\n    font-size: 16px;\n    line-height: 20px;\n    padding-top: 12px;\n    text-align: center;\n}\n#payment-element[data-v-60f31952] {\n    margin-bottom: 24px;\n}\n\n/* Buttons and links */\nbutton[data-v-60f31952] {\n    background: #5469d4;\n    font-family: Arial, sans-serif;\n    color: #ffffff;\n    border-radius: 4px;\n    border: 0;\n    padding: 12px 16px;\n    font-size: 16px;\n    font-weight: 600;\n    cursor: pointer;\n    display: block;\n    transition: all 0.2s ease;\n    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);\n    width: 100%;\n}\nbutton[data-v-60f31952]:hover {\n    filter: contrast(115%);\n}\nbutton[data-v-60f31952]:disabled {\n    opacity: 0.5;\n    cursor: default;\n}\n\n/* spinner/processing state, errors */\n.spinner[data-v-60f31952],\n.spinner[data-v-60f31952]:before,\n.spinner[data-v-60f31952]:after {\n    border-radius: 50%;\n}\n.spinner[data-v-60f31952] {\n    color: #ffffff;\n    font-size: 22px;\n    text-indent: -99999px;\n    margin: 0px auto;\n    position: relative;\n    width: 20px;\n    height: 20px;\n    box-shadow: inset 0 0 0 2px;\n    transform: translateZ(0);\n}\n.spinner[data-v-60f31952]:before,\n.spinner[data-v-60f31952]:after {\n    position: absolute;\n    content: \"\";\n}\n.spinner[data-v-60f31952]:before {\n    width: 10.4px;\n    height: 20.4px;\n    background: #5469d4;\n    border-radius: 20.4px 0 0 20.4px;\n    top: -0.2px;\n    left: -0.2px;\n    transform-origin: 10.4px 10.2px;\n    animation: loading-60f31952 2s infinite ease 1.5s;\n}\n.spinner[data-v-60f31952]:after {\n    width: 10.4px;\n    height: 10.2px;\n    background: #5469d4;\n    border-radius: 0 10.2px 10.2px 0;\n    top: -0.1px;\n    left: 10.2px;\n    transform-origin: 0px 10.2px;\n    animation: loading-60f31952 2s infinite ease;\n}\n@keyframes loading-60f31952 {\n0% {\n        transform: rotate(0deg);\n}\n100% {\n        transform: rotate(360deg);\n}\n}\n@media only screen and (max-width: 600px) {\nform[data-v-60f31952] {\n        width: 95vw;\n        padding: 20px;\n        min-width: initial;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
