@@ -23274,7 +23274,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   "class": "lg:text-5xl text-3xl font-bold"
 }, "Faire Un Don"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "py-6 md:px-24 lg:px-0"
-}, " Le domaine est maintenu grace aux génereux dons éffectués tout au long de l'année par nos visiteurs. Chaque contribution est grandement appreciée. ")], -1 /* HOISTED */);
+}, " Le domaine est maintenu grâce aux génereux dons effectués tout au long de l'année par nos visiteurs. Chaque contribution est grandement appréciée. ")], -1 /* HOISTED */);
 var _hoisted_4 = {
   "class": "shadow-lg bg-white md:w-1/2 mx-auto p-4 rounded-xl"
 };
@@ -23615,58 +23615,76 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": "bg-white shadow-lg md:w-2/3 lg:w-1/3 mx-auto p-4 rounded-xl"
 };
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+var _hoisted_3 = {
+  key: 0,
   "class": "text-center pt-3 font-bold text-xl text-gray-700 mb-2"
-}, "Payment Effectué!", -1 /* HOISTED */);
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-center"
-}, "Merci pour votre soutien.", -1 /* HOISTED */);
+};
+var _hoisted_4 = {
+  key: 1,
+  "class": "text-center pt-3 font-bold text-xl text-gray-700 mb-2"
+};
 var _hoisted_5 = {
-  "class": "bg-gray-100"
+  key: 2,
+  "class": "text-center"
 };
 var _hoisted_6 = {
-  "class": "items-center flex justify-between px-3 pt-2 mt-8 border-t"
+  key: 3,
+  "class": "text-center"
 };
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-sm text-gray-600"
-}, "Montant", -1 /* HOISTED */);
+var _hoisted_7 = {
+  key: 4,
+  "class": "text-center"
+};
 var _hoisted_8 = {
-  "class": "text-sm text-gray-600"
+  key: 5,
+  "class": "text-center"
 };
 var _hoisted_9 = {
+  "class": "bg-gray-100"
+};
+var _hoisted_10 = {
+  "class": "items-center flex justify-between px-3 pt-2 mt-8 border-t"
+};
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-sm text-gray-600"
+}, "Montant", -1 /* HOISTED */);
+var _hoisted_12 = {
+  "class": "text-sm text-gray-600"
+};
+var _hoisted_13 = {
   "class": "items-center flex justify-between px-3 mt-3"
 };
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-sm text-gray-600"
 }, "Nom", -1 /* HOISTED */);
-var _hoisted_11 = {
+var _hoisted_15 = {
   "class": "text-sm text-gray-600"
 };
-var _hoisted_12 = {
+var _hoisted_16 = {
   "class": "items-center flex justify-between px-3 mt-3 pb-3"
 };
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-sm text-gray-600"
 }, "Réference Paiement", -1 /* HOISTED */);
-var _hoisted_14 = {
+var _hoisted_18 = {
   "class": "text-sm text-gray-600"
 };
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "bg-blue-500 w-full mt-8 block hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
   type: "submit"
-}, "Retour À l'Accueil ", -1 /* HOISTED */);
+}, "Retour à l'Accueil ", -1 /* HOISTED */);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     "class": "mx-auto block py-2 text-6xl text-gray-700",
-    name: "checkmark-circle-outline"
-  }), _hoisted_3, _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_8, "€" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.displayAmount($props.data.amount)), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.data.customer), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.data.paymentId), 1 /* TEXT */)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    name: $props.data.status === 'succeeded' || $props.data.status === 'processing' ? 'checkmark-circle-outline' : 'close-circle-outline'
+  }, null, 8 /* PROPS */, ["name"]), $props.data.status === 'succeeded' || $props.data.status === 'processing' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", _hoisted_3, " Payment Effectué ")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("h1", _hoisted_4, " Veuillez Réessayer ")), $props.data.status === 'succeeded' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_5, " Nous avons reçu votre paiement. ")) : $props.data.status === 'processing' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_6, " Votre paiement est en cours de traitement. ")) : $props.data.status === 'requires_payment_method' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_7, " Le paiement a échoué. Essayez un autre moyen de paiement. ")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_8, "Un erreur s'est produite.")), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_12, "€" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.displayAmount($props.data.amount)), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.data.customer), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.data.paymentId), 1 /* TEXT */)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     href: "/"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_15];
+      return [_hoisted_19];
     }),
     _: 1 /* STABLE */
   })])]);

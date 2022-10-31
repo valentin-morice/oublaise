@@ -103,6 +103,7 @@ class StripeController extends Controller
                 'customer' => $customer->name,
                 'amount' => $payment->amount,
                 'paymentId' => $payment->stripe_id,
+                'status' => $currentPayment->status,
             ],
         ]);
     }

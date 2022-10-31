@@ -6,8 +6,8 @@
             <div class="text-center lg:ml-4 lg:text-left">
                 <h1 class="lg:text-5xl text-3xl font-bold">Faire Un Don</h1>
                 <p class="py-6 md:px-24 lg:px-0">
-                    Le domaine est maintenu grace aux génereux dons éffectués tout au long de l'année par nos visiteurs.
-                    Chaque contribution est grandement appreciée.
+                    Le domaine est maintenu grâce aux génereux dons effectués tout au long de l'année par nos visiteurs.
+                    Chaque contribution est grandement appréciée.
                 </p>
             </div>
             <div class="shadow-lg bg-white md:w-1/2 mx-auto p-4 rounded-xl">

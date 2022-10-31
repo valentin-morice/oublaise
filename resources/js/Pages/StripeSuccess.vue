@@ -1,9 +1,34 @@
 <template>
     <div class="bg-base-200 px-2 lg:px-0 py-8">
         <div class="bg-white shadow-lg md:w-2/3 lg:w-1/3 mx-auto p-4 rounded-xl">
-            <ion-icon class="mx-auto block py-2 text-6xl text-gray-700" name="checkmark-circle-outline"></ion-icon>
-            <h1 class="text-center pt-3 font-bold text-xl text-gray-700 mb-2">Payment Effectué!</h1>
-            <p class="text-center">Merci pour votre soutien.</p>
+            <ion-icon
+                class="mx-auto block py-2 text-6xl text-gray-700"
+                :name="
+                    data.status === 'succeeded' || data.status === 'processing'
+                        ? 'checkmark-circle-outline'
+                        : 'close-circle-outline'
+                "
+            ></ion-icon>
+            <h1 v-if="data.status === 'succeeded' || data.status === 'processing'"
+                class="text-center pt-3 font-bold text-xl text-gray-700 mb-2">
+                Payment Effectué
+            </h1>
+            <h1 v-else class="text-center pt-3 font-bold text-xl text-gray-700 mb-2">
+                Veuillez Réessayer
+            </h1>
+            <p class="text-center" v-if="data.status === 'succeeded'">
+                Nous avons reçu votre paiement.
+            </p>
+            <p class="text-center" v-else-if="data.status === 'processing'">
+                Votre paiement est en cours de traitement.
+            </p>
+            <p
+                class="text-center"
+                v-else-if="data.status === 'requires_payment_method'"
+            >
+                Le paiement a échoué. Essayez un autre moyen de paiement.
+            </p>
+            <p class="text-center" v-else>Un erreur s'est produite.</p>
             <div class="bg-gray-100">
                 <div class="items-center flex justify-between px-3 pt-2 mt-8 border-t">
                     <p class="text-sm text-gray-600">Montant</p>
@@ -21,7 +46,7 @@
             <Link href="/">
                 <button
                     class="bg-blue-500 w-full mt-8 block hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                    type="submit">Retour À l'Accueil
+                    type="submit">Retour à l'Accueil
                 </button>
             </Link>
         </div>
