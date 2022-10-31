@@ -98,7 +98,7 @@
             </div>
             <img
                 class="order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl"
-                src="/img/forest.jpg"
+                src="/img/map.png"
             />
         </div>
     </div>

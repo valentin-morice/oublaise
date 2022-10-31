@@ -36,7 +36,7 @@
             </div>
             <img
                 class="order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl"
-                src="/img/cows.jpg"/>
+                src="/img/clean_field.jpeg"/>
         </div>
     </div>
     <div class="py-32 lg:px-16">
