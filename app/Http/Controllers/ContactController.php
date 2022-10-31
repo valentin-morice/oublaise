@@ -17,7 +17,7 @@ class ContactController extends Controller
         ]);
 
 
-        Mail::to('foo@example.com')
+        Mail::to(getenv('MAIL_TO_ADDRESS'))
             ->send(new Contact($request));
 
         redirect('/')->with('message', 'Your message was sent successfully.');
