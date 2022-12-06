@@ -2,27 +2,26 @@
 
 
     <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content lg:px-28 flex-col lg:flex-row-reverse">
+        <div class="hero-content flex-col gap-16 lg:flex-row-reverse">
             <div class="text-center lg:ml-4 lg:text-left">
-                <h1 class="lg:text-5xl text-3xl font-bold">Faire Un Don</h1>
+                <h1 class="lg:text-5xl text-3xl font-bold">Faire un Don</h1>
                 <p class="py-6 md:px-24 lg:px-0">
                     Le domaine est maintenu grâce aux génereux dons effectués tout au long de l'année par nos visiteurs.
                     Chaque contribution est grandement appréciée.
                 </p>
             </div>
-            <div class="shadow-lg bg-white md:w-1/2 mx-auto p-4 rounded-xl">
-                <h1 class="font-bold text-xl text-gray-700 mb-4">Votre Donation</h1>
+            <div class="shadow-lg bg-white md:w-1/2 mx-auto py-8 px-6 rounded-xl">
                 <form @submit.prevent="submit">
                     <CurrencyInput
                         v-model.number="form.amount"
                         :options="{ currency: 'EUR', autoDecimalDigit: true, precision: 2 }"
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        class="input input-bordered w-full"
                         placeholder="Montant"
                     />
                     <p v-if="form.errors.amount" class=" mt-1 text-sm text-red-500">{{ form.errors.amount }}</p>
                     <input
                         v-model="form.first_name"
-                        class="mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        class="mt-3 input input-bordered w-full"
                         name="first_name"
                         pattern="^[a-zA-Z_]+( [a-zA-Z_]+)*$"
                         placeholder="Prénom"
@@ -30,7 +29,7 @@
                     <p v-if="form.errors.first_name" class=" mt-1 text-sm text-red-500">{{ form.errors.first_name }}</p>
                     <input
                         v-model="form.last_name"
-                        class="mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        class="mt-3 input input-bordered w-full"
                         name="last_name"
                         pattern="^[a-zA-Z_]+( [a-zA-Z_]+)*$"
                         placeholder="Nom"
@@ -38,14 +37,14 @@
                     <p v-if="form.errors.last_name" class=" mt-1 text-sm text-red-500">{{ form.errors.last_name }}</p>
                     <input
                         v-model="form.email"
-                        class="mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        class="mt-3 input input-bordered w-full"
                         name="email"
                         placeholder="Email"
                         type="email">
                     <p v-if="form.errors.email" class=" mt-1 text-sm text-red-500">{{ form.errors.email }}</p>
                     <button
                         :disabled="form.processing"
-                        class="bg-blue-500 w-full my-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        class="btn btn-primary w-full mt-6"
                         type="submit">Confirmer
                     </button>
                 </form>

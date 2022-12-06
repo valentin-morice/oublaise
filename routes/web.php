@@ -38,3 +38,6 @@ Route::post('/logout', [LoginController::class, 'destroy'])->middleware(['auth']
 Route::get('/history', function () {
     return Inertia::render('HistoryPage');
 });
+Route::get('/test',  function () {
+    return Inertia::render('ProjectShow');
+});

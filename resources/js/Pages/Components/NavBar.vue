@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <Link href="/">
-                <p class="btn btn-ghost normal-case text-xl">LOGO</p>
+                <p class="btn btn-ghost normal-case text-xl">Oublaise</p>
             </Link>
         </div>
         <div class="navbar-end hidden lg:flex">

@@ -22269,6 +22269,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/ProjectShow.vue?vue&type=script&lang=js":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/ProjectShow.vue?vue&type=script&lang=js ***!
+  \************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Layout_Base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Layout/Base */ "./resources/js/Pages/Layout/Base.vue");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  layout: _Layout_Base__WEBPACK_IMPORTED_MODULE_0__["default"]
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/StripeCreate.vue?vue&type=script&lang=js":
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/StripeCreate.vue?vue&type=script&lang=js ***!
@@ -22700,19 +22719,11 @@ var _hoisted_1 = {
 };
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "mx-auto"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  "class": "fill-gray-100",
-  "clip-rule": "evenodd",
-  "fill-rule": "evenodd",
-  height: "50",
-  viewBox: "0 0 24 24",
-  width: "50",
-  xmlns: "http://www.w3.org/2000/svg"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  d: "M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-gray-100 text-xl font-bold pt-4"
+}, "Domaine d'Oublaise"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-gray-100"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Domaine d'Oublaise"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Un domaine d'exception, au coeur de l'Indre.")])], -1 /* HOISTED */);
+}, "Un domaine d'exception, au coeur de l'Indre.")], -1 /* HOISTED */);
 var _hoisted_3 = {
   "class": "text-gray-100"
 };
@@ -22809,7 +22820,7 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNod
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Histoire");
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "btn btn-ghost normal-case text-xl"
-}, "LOGO", -1 /* HOISTED */);
+}, "Oublaise", -1 /* HOISTED */);
 var _hoisted_10 = {
   "class": "navbar-end hidden lg:flex"
 };
@@ -22888,7 +22899,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-16 bg-base-200\"><div class=\"hero-content lg:px-32 flex-col lg:flex-row\"><img class=\"max-w-xs md:max-w-sm rounded-lg shadow-2xl\" src=\"/img/castle_old.jpg\"><div class=\"lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center\"><h1 class=\"text-3xl lg:text-5xl font-bold\">L&#39;Histoire d&#39;Oublaise</h1><p class=\"pt-6 md:px-32 lg:px-0\"> Situé à moins de trois heures de Paris, le domaine d&#39;Oublaise est un lieu chargé de mémoire. Apprenez-en plus sur cette atypique propriété. </p></div></div></div>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-16 bg-base-200\"><div class=\"hero-content md:py-24 md:gap-32 gap-8 flex-col lg:flex-row\"><img class=\"max-w-xs md:max-w-md rounded-lg shadow-2xl\" src=\"/img/castle_old.jpg\"><div class=\"lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center\"><h1 class=\"text-3xl lg:text-5xl font-bold\">L&#39;Histoire d&#39;Oublaise</h1><p class=\"pt-6 lg:px-0\"> Situé à moins de trois heures de Paris, le domaine d&#39;Oublaise est un lieu chargé de mémoire. Apprenez-en plus sur cette atypique propriété. </p></div></div></div>", 1);
 var _hoisted_2 = {
   "class": "pb-32 py-28 lg:px-10"
 };
@@ -22922,7 +22933,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "pt-3"
 }, " Le Mouvement Hare Krishna a pris possession du domaine en 1974, et le maintient jusqu'à ce jour. De nombreux travaux ont été entamés pour sauvegarder ce lieu unique et multiculturel, qui est ouvert au public tout au long de la semaine. ", -1 /* HOISTED */);
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Architecture </h2><p class=\"pt-3\"> Le château est construit dans le style Néo-Renaissance, et possède une somptueuse marqueterie de bois sur chacun de ses trois étages, des colonnes de marbre finement sculptés, et même sa propre petite chapelle avec ses vitraux. Une visite à ne pas manquer ! </p></div><img class=\"order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/cows.jpg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Domaine &amp; Alentours </h2><p class=\"pt-3\"> Le domaine d&#39;Oublaise se situe dans la campagne du Centre-Val de Loire, qui comporte un grand nombre de sites historiques, tels que des villages médiévaux et des châteaux. La région fut très appréciée par la noblesse et la royauté française, notamment au 15ème siècle. </p></div><img class=\"order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/map.png\"></div></div>", 2);
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Architecture </h2><p class=\"pt-3\"> Le château est construit dans le style Néo-Renaissance, et possède une somptueuse marqueterie de bois sur chacun de ses trois étages, des colonnes de marbre finement sculptés, et même sa propre petite chapelle avec ses vitraux. Une visite à ne pas manquer ! </p></div><img class=\"order-1 max-w-xs lg:order-2 md:max-w-md mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/castle_front.jpg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\"> Domaine &amp; Alentours </h2><p class=\"pt-3\"> Le domaine d&#39;Oublaise se situe dans la campagne du Centre-Val de Loire, qui comporte un grand nombre de sites historiques, tels que des villages médiévaux et des châteaux. La région fut très appréciée par la noblesse et la royauté française, notamment au 15ème siècle. </p></div><img class=\"order-1 max-w-xs md:max-w-md mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/map.png\"></div></div>", 2);
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
@@ -22956,11 +22967,11 @@ var _hoisted_1 = {
   "class": "hero min-h-screen bg-base-200"
 };
 var _hoisted_2 = {
-  "class": "hero-content md:py-20 lg:py-0 lg:px-32 flex-col lg:flex-row"
+  "class": "hero-content md:py-20 lg:py-0 gap-8 md:gap-32 flex-col lg:flex-row"
 };
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  "class": "max-w-xs rounded-lg shadow-2xl",
-  src: "/img/castle.jpg"
+  "class": "max-w-xs md:max-w-md rounded-lg shadow-2xl",
+  src: "/img/castle_portrait.jpg"
 }, null, -1 /* HOISTED */);
 var _hoisted_4 = {
   "class": "lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center"
@@ -22974,12 +22985,12 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "btn btn-primary"
 }, "En Savoir Plus", -1 /* HOISTED */);
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container mx-auto my-32 lg:px-16 px-4\"><div class=\"lg:px-64 md:px-16 lg:text-center\"><h2 class=\"lg:text-4xl text-3xl font-bold\">Une Expérience Unique</h2><p class=\"pt-6\"> Le château d’Oublaise constitue un héritage remarquable. Vieux de plusieurs siècles, il a abrité au fil du temps nombre de différentes familles et communautés. Apprenez-en plus sur son histoire, et participez à sa conservation dès à présent </p></div></div><div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\">À Propos</h2><p class=\"pt-3\"> S’étendant sur une surface de plus de quatre-vingt hectares, le domaine d’Oublaise est d’une nature polyvalente. Ses terres cultivables sont présentement exploitées par les propriétaires, et le château abrite un temple Hare Krishna accueillant chaque jour de nombreux visiteurs. </p></div><img class=\"order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/clean_field.jpeg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\">Le Château Aujourd’hui</h2><p class=\"pt-3\"> De nombreuses rénovations sont aujourd’hui nécessaires pour préserver tant le château que le domaine qui lui est associé, pour garantir la sécurité des invités et permettre aux generations futures de bénéficier de ce lieu hors-norme. </p></div><img class=\"order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/forest.jpg\"></div></div>", 3);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container mx-auto my-32 lg:px-16 px-4\"><div class=\"lg:px-64 md:px-16 lg:text-center\"><h2 class=\"lg:text-4xl text-3xl font-bold\">Une Expérience Unique</h2><p class=\"pt-6\"> Le château d’Oublaise constitue un héritage remarquable. Vieux de plusieurs siècles, il a abrité au fil du temps nombre de différentes familles et communautés. Apprenez-en plus sur son histoire, et participez à sa conservation dès à présent </p></div></div><div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\">À Propos</h2><p class=\"pt-3\"> S’étendant sur une surface de plus de quatre-vingt hectares, le domaine d’Oublaise est d’une nature polyvalente. Ses terres cultivables sont présentement exploitées par les propriétaires, et le château abrite un temple Hare Krishna accueillant chaque jour de nombreux visiteurs. </p></div><img class=\"order-1 max-w-xs md:max-w-md lg:order-2 mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/clean_field.jpeg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\">Le Château Aujourd’hui</h2><p class=\"pt-3\"> De nombreuses rénovations sont aujourd’hui nécessaires pour préserver tant le château que le domaine qui lui est associé, pour garantir la sécurité des invités et permettre aux generations futures de bénéficier de ce lieu hors-norme. </p></div><img class=\"order-1 max-w-xs md:max-w-md mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/castle_outside.jpg\"></div></div>", 3);
 var _hoisted_11 = {
   "class": "hero py-32 bg-base-200"
 };
 var _hoisted_12 = {
-  "class": "hero-content flex-col lg:px-16 lg:flex-row-reverse"
+  "class": "hero-content flex-col gap-32 lg:flex-row-reverse"
 };
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "lg:ml-10 md:px-24 mb-8 lg:mb-0 lg:px-0"
@@ -23266,41 +23277,38 @@ var _hoisted_1 = {
   "class": "hero min-h-screen bg-base-200"
 };
 var _hoisted_2 = {
-  "class": "hero-content lg:px-28 flex-col lg:flex-row-reverse"
+  "class": "hero-content flex-col gap-16 lg:flex-row-reverse"
 };
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "text-center lg:ml-4 lg:text-left"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "lg:text-5xl text-3xl font-bold"
-}, "Faire Un Don"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+}, "Faire un Don"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "py-6 md:px-24 lg:px-0"
 }, " Le domaine est maintenu grâce aux génereux dons effectués tout au long de l'année par nos visiteurs. Chaque contribution est grandement appréciée. ")], -1 /* HOISTED */);
 var _hoisted_4 = {
-  "class": "shadow-lg bg-white md:w-1/2 mx-auto p-4 rounded-xl"
+  "class": "shadow-lg bg-white md:w-1/2 mx-auto py-8 px-6 rounded-xl"
 };
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "font-bold text-xl text-gray-700 mb-4"
-}, "Votre Donation", -1 /* HOISTED */);
-var _hoisted_6 = {
+var _hoisted_5 = {
   key: 0,
   "class": "mt-1 text-sm text-red-500"
 };
-var _hoisted_7 = {
+var _hoisted_6 = {
   key: 1,
   "class": "mt-1 text-sm text-red-500"
 };
-var _hoisted_8 = {
+var _hoisted_7 = {
   key: 2,
   "class": "mt-1 text-sm text-red-500"
 };
-var _hoisted_9 = {
+var _hoisted_8 = {
   key: 3,
   "class": "mt-1 text-sm text-red-500"
 };
-var _hoisted_10 = ["disabled"];
+var _hoisted_9 = ["disabled"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_CurrencyInput = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("CurrencyInput");
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     onSubmit: _cache[4] || (_cache[4] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.submit && $options.submit.apply($options, arguments);
     }, ["prevent"]))
@@ -23317,39 +23325,87 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       autoDecimalDigit: true,
       precision: 2
     },
-    "class": "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+    "class": "input input-bordered w-full",
     placeholder: "Montant"
-  }, null, 8 /* PROPS */, ["modelValue"]), $setup.form.errors.amount ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.amount), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, null, 8 /* PROPS */, ["modelValue"]), $setup.form.errors.amount ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.amount), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
       return $setup.form.first_name = $event;
     }),
-    "class": "mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+    "class": "mt-3 input input-bordered w-full",
     name: "first_name",
     pattern: "^[a-zA-Z_]+( [a-zA-Z_]+)*$",
     placeholder: "Prénom",
     type: "text"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.first_name]]), $setup.form.errors.first_name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.first_name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.first_name]]), $setup.form.errors.first_name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.first_name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
       return $setup.form.last_name = $event;
     }),
-    "class": "mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+    "class": "mt-3 input input-bordered w-full",
     name: "last_name",
     pattern: "^[a-zA-Z_]+( [a-zA-Z_]+)*$",
     placeholder: "Nom",
     type: "text"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.last_name]]), $setup.form.errors.last_name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.last_name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.last_name]]), $setup.form.errors.last_name ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.last_name), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
       return $setup.form.email = $event;
     }),
-    "class": "mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline",
+    "class": "mt-3 input input-bordered w-full",
     name: "email",
     placeholder: "Email",
     type: "email"
-  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]]), $setup.form.errors.email ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.email), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, null, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]]), $setup.form.errors.email ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.email), 1 /* TEXT */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     disabled: $setup.form.processing,
-    "class": "bg-blue-500 w-full my-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline",
+    "class": "btn btn-primary w-full mt-6",
     type: "submit"
-  }, "Confirmer ", 8 /* PROPS */, _hoisted_10)], 32 /* HYDRATE_EVENTS */)])])]);
+  }, "Confirmer ", 8 /* PROPS */, _hoisted_9)], 32 /* HYDRATE_EVENTS */)])])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/ProjectShow.vue?vue&type=template&id=1ef1739d":
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/ProjectShow.vue?vue&type=template&id=1ef1739d ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"hero py-20 bg-base-200\"><div class=\"hero-content gap-32 flex-col lg:flex-row\"><div class=\"w-5/6\"><div class=\"carousel shadow-lg w-full rounded-2xl\"><div id=\"item1\" class=\"carousel-item w-full\"><img src=\"https://placeimg.com/600/400/arch\" class=\"w-full\"></div><div id=\"item2\" class=\"carousel-item w-full\"><img src=\"https://placeimg.com/600/400/arch\" class=\"w-full\"></div><div id=\"item3\" class=\"carousel-item w-full\"><img src=\"https://placeimg.com/600/400/arch\" class=\"w-full\"></div><div id=\"item4\" class=\"carousel-item w-full\"><img src=\"https://placeimg.com/600/400/arch\" class=\"w-full\"></div></div><div class=\"flex justify-center w-full py-2 gap-2\"><a href=\"#item1\" class=\"btn btn-xs\">1</a><a href=\"#item2\" class=\"btn btn-xs\">2</a><a href=\"#item3\" class=\"btn btn-xs\">3</a><a href=\"#item4\" class=\"btn btn-xs\">4</a></div></div><div><h1 class=\"text-5xl font-bold\">Project Title</h1><p class=\"py-6\">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p><button class=\"btn btn-primary\">Learn More</button></div></div></div>", 1);
+var _hoisted_2 = {
+  "class": "container w-[1280px] mx-auto my-32"
+};
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"bg-base-200 rounded-2xl p-6 w-5/6 mx-auto\"><div class=\"flex justify-between items-end\"><h2 class=\"text-2xl font-bold\">Collecté Jusqu&#39;ici</h2><p class=\"text-xl text-gray-600\"><span class=\"text-2xl text-gray-700 font-bold pr-2\">1046,53€</span>sur un objectif de<span class=\"text-2xl font-bold pl-2 text-gray-700\">12000€</span></p></div><progress class=\"mt-6 progress progress-success w-full\" value=\"10\" max=\"100\"></progress></section><section class=\"mt-24 px-2 w-5/6 mx-auto\"><h2 class=\"text-2xl font-bold\">Description</h2><p class=\"mt-6\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, atque cumque dignissimos impedit qui sint. Alias distinctio dolor doloribus laboriosam natus officia quia temporibus. Amet assumenda beatae cum delectus eveniet, ipsam nobis nostrum porro quia rem reprehenderit tempore vero? Alias delectus deserunt doloremque eaque hic laborum quaerat quia recusandae sed. </p><p class=\"mt-6\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores blanditiis cum eius laudantium nihil obcaecati quam quisquam sapiente veritatis? Accusantium consequatur excepturi facere iure mollitia, perspiciatis provident soluta suscipit totam veritatis? Quidem, vel! </p><p class=\"mt-6\"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa deleniti illo praesentium quidem quis sequi voluptates. Accusamus asperiores at aut blanditiis commodi consectetur corporis dolore doloremque esse eveniet expedita, fuga hic illo, ipsam magni maxime odit officiis perferendis quam sint vel veritatis vero! Aliquid commodi culpa cumque deserunt dolore earum et excepturi facilis fuga iure laboriosam nam nobis non obcaecati officiis qui quisquam, reprehenderit temporibus, unde velit voluptatibus, voluptatum! </p></section>", 2);
+var _hoisted_5 = {
+  "class": "mt-24 bg-base-200 rounded-2xl p-6 w-5/6 mx-auto"
+};
+var _hoisted_6 = {
+  "class": "flex justify-between items-center"
+};
+var _hoisted_7 = {
+  "class": "flex items-center gap-4 ml-2"
+};
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+  "class": "text-2xl font-bold"
+}, "Soutenir Ce Projet", -1 /* HOISTED */);
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "flex gap-2"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "btn btn-secondary w-52"
+}, "Poser une Question"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "btn btn-primary w-40"
+}, "Faire un Don")], -1 /* HOISTED */);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
+    name: "heart-outline",
+    "class": "text-4xl rounded-xl"
+  }), _hoisted_8]), _hoisted_9])])])], 64 /* STABLE_FRAGMENT */);
 }
 
 /***/ }),
@@ -51043,6 +51099,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/ProjectShow.vue":
+/*!********************************************!*\
+  !*** ./resources/js/Pages/ProjectShow.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ProjectShow_vue_vue_type_template_id_1ef1739d__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProjectShow.vue?vue&type=template&id=1ef1739d */ "./resources/js/Pages/ProjectShow.vue?vue&type=template&id=1ef1739d");
+/* harmony import */ var _ProjectShow_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProjectShow.vue?vue&type=script&lang=js */ "./resources/js/Pages/ProjectShow.vue?vue&type=script&lang=js");
+/* harmony import */ var _var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_var_www_html_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_ProjectShow_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_ProjectShow_vue_vue_type_template_id_1ef1739d__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/ProjectShow.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/StripeCreate.vue":
 /*!*********************************************!*\
   !*** ./resources/js/Pages/StripeCreate.vue ***!
@@ -51318,6 +51402,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/ProjectShow.vue?vue&type=script&lang=js":
+/*!********************************************************************!*\
+  !*** ./resources/js/Pages/ProjectShow.vue?vue&type=script&lang=js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ProjectShow_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ProjectShow_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ProjectShow.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/ProjectShow.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/StripeCreate.vue?vue&type=script&lang=js":
 /*!*********************************************************************!*\
   !*** ./resources/js/Pages/StripeCreate.vue?vue&type=script&lang=js ***!
@@ -51538,6 +51638,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_PaymentCreate_vue_vue_type_template_id_0c6502c9__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_PaymentCreate_vue_vue_type_template_id_0c6502c9__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./PaymentCreate.vue?vue&type=template&id=0c6502c9 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/PaymentCreate.vue?vue&type=template&id=0c6502c9");
+
+
+/***/ }),
+
+/***/ "./resources/js/Pages/ProjectShow.vue?vue&type=template&id=1ef1739d":
+/*!**************************************************************************!*\
+  !*** ./resources/js/Pages/ProjectShow.vue?vue&type=template&id=1ef1739d ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ProjectShow_vue_vue_type_template_id_1ef1739d__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ProjectShow_vue_vue_type_template_id_1ef1739d__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ProjectShow.vue?vue&type=template&id=1ef1739d */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/ProjectShow.vue?vue&type=template&id=1ef1739d");
 
 
 /***/ }),
@@ -51889,6 +52005,8 @@ var map = {
 	"./Login.vue": "./resources/js/Pages/Login.vue",
 	"./PaymentCreate": "./resources/js/Pages/PaymentCreate.vue",
 	"./PaymentCreate.vue": "./resources/js/Pages/PaymentCreate.vue",
+	"./ProjectShow": "./resources/js/Pages/ProjectShow.vue",
+	"./ProjectShow.vue": "./resources/js/Pages/ProjectShow.vue",
 	"./StripeCreate": "./resources/js/Pages/StripeCreate.vue",
 	"./StripeCreate.vue": "./resources/js/Pages/StripeCreate.vue",
 	"./StripeIndex": "./resources/js/Pages/StripeIndex.vue",

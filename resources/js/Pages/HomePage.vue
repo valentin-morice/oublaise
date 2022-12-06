@@ -1,7 +1,7 @@
 <template>
     <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content md:py-20 lg:py-0 lg:px-32 flex-col lg:flex-row">
-            <img class="max-w-xs rounded-lg shadow-2xl" src="/img/castle.jpg"/>
+        <div class="hero-content md:py-20 lg:py-0 gap-8 md:gap-32 flex-col lg:flex-row">
+            <img class="max-w-xs md:max-w-md rounded-lg shadow-2xl" src="/img/castle_portrait.jpg"/>
             <div class="lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center">
                 <h1 class="text-3xl lg:text-5xl font-bold">Domaine d'Oublaise</h1>
                 <p class="py-6 md:px-32 lg:px-0">
@@ -35,7 +35,7 @@
                 </p>
             </div>
             <img
-                class="order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl"
+                class="order-1 max-w-xs md:max-w-md lg:order-2 mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl"
                 src="/img/clean_field.jpeg"/>
         </div>
     </div>
@@ -50,12 +50,12 @@
                 </p>
             </div>
             <img
-                class="order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl"
-                src="/img/forest.jpg"/>
+                class="order-1 max-w-xs md:max-w-md mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl"
+                src="/img/castle_outside.jpg"/>
         </div>
     </div>
     <div class="hero py-32 bg-base-200">
-        <div class="hero-content flex-col lg:px-16 lg:flex-row-reverse">
+        <div class="hero-content flex-col gap-32 lg:flex-row-reverse">
             <div class="lg:ml-10 md:px-24 mb-8 lg:mb-0 lg:px-0">
                 <h2 class="text-xl uppercase font-bold text-gray-700">Nous Contacter</h2>
                 <p class="py-3">

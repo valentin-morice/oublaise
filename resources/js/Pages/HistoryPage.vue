@@ -1,13 +1,13 @@
 <template>
     <div class="hero py-16 bg-base-200">
-        <div class="hero-content lg:px-32 flex-col lg:flex-row">
+        <div class="hero-content md:py-24 md:gap-32 gap-8 flex-col lg:flex-row">
             <img
-                class="max-w-xs md:max-w-sm rounded-lg shadow-2xl"
+                class="max-w-xs md:max-w-md rounded-lg shadow-2xl"
                 src="/img/castle_old.jpg"
             />
             <div class="lg:ml-12 lg:text-left lg:mt-0 mt-4 text-center">
                 <h1 class="text-3xl lg:text-5xl font-bold">L'Histoire d'Oublaise</h1>
-                <p class="pt-6 md:px-32 lg:px-0">
+                <p class="pt-6 lg:px-0">
                     Situé à moins de trois heures de Paris, le domaine d'Oublaise est un lieu chargé de mémoire.
                     Apprenez-en plus sur cette atypique propriété.
                 </p>
@@ -77,8 +77,8 @@
                 </p>
             </div>
             <img
-                class="order-1 max-w-xs lg:order-2 md:max-w-sm mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl"
-                src="/img/cows.jpg"
+                class="order-1 max-w-xs lg:order-2 md:max-w-md mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl"
+                src="/img/castle_front.jpg"
             />
         </div>
     </div>
@@ -97,7 +97,7 @@
                 </p>
             </div>
             <img
-                class="order-1 max-w-xs md:max-w-sm mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl"
+                class="order-1 max-w-xs md:max-w-md mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl"
                 src="/img/map.png"
             />
         </div>
