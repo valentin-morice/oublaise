@@ -1,13 +1,16 @@
 <template>
     <AdminBar>
-        <Link as="button"
-              class="px-4 py-2 text-white bg-orange-500 rounded" href="/logout" method="post">Logout
+        <Link class="px-2 py-1.5 text-white ml-2 bg-blue-600 rounded"
+              href="/admin/payments">Payments
         </Link>
-        <Link v-if="url()" class="px-4 py-2 text-white ml-2 bg-blue-500 rounded"
-              href="/stripe">Dashboard
+        <Link class="px-2 py-1.5 text-white ml-2 bg-blue-600 rounded"
+              href="/admin/projects">Projects
         </Link>
-        <Link v-if="!url()" class="px-4 py-2 text-white ml-2 bg-blue-500 rounded"
+        <Link class="px-2 py-1.5 text-white ml-2 bg-blue-600 rounded"
               href="/">Home
+        </Link>
+        <Link as="button"
+              class="px-2 py-1 ml-2 text-white bg-red-600 rounded" href="/logout" method="post">Logout
         </Link>
     </AdminBar>
     <slot></slot>
@@ -23,15 +26,7 @@ import {Link} from "@inertiajs/inertia-vue3";
 import AdminBar from "../Components/AdminBar";
 
 export default {
-    methods: {
-        url() {
-            return window.location.href == 'http://localhost/payment/create'
-        },
-        isDashboard() {
-            if (window.location.href.includes('stripe/success')) return false;
-            else if (window.location.href.includes('stripe')) return true;
-        }
-    },
+    methods: {},
     components: {
         Link,
         AdminBar

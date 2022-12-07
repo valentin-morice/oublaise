@@ -1,7 +1,7 @@
 <template>
     <NavBar>
         <li v-if="$page.props.isLogged">
-            <Link href="/stripe">Admin</Link>
+            <Link href="/admin/payments">Admin</Link>
         </li>
         <template v-if="$page.props.isLogged" v-slot:responsive>
             <li>

@@ -1,37 +1,43 @@
 <template>
-    <div class="bg-base-200 py-8 flex items-center justify-center px-2 lg:px-0 py-64 h-96">
-        <div class="shadow-lg bg-white md:w-2/3 lg:w-1/3 mx-auto p-4 rounded-xl">
+    <div class="bg-base-200 flex items-center justify-center h-screen">
+        <div class="shadow-lg bg-white max-w-md mx-2 p-4 rounded-xl">
             <h1 class="font-bold text-xl text-gray-700 mb-4">Login</h1>
             <form @submit.prevent="submit">
                 <input
                     v-model="form.email"
-                    class="mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    class="mt-3 input input-bordered w-full"
                     name="email"
                     placeholder="Your Email"
                     type="email">
                 <p v-if="form.errors.email" class=" mt-1 text-sm text-red-500">{{ form.errors.email }}</p>
                 <input
                     v-model="form.password"
-                    class="mt-3 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    class="mt-3 input input-bordered w-full"
                     name="password"
                     placeholder="Password"
                     type="password">
                 <p v-if="form.errors.password" class=" mt-1 text-sm text-red-500">{{ form.errors.password }}</p>
-                <button
-                    class="bg-blue-500 w-full my-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                    type="submit">Submit
-                </button>
+                <div class="grid grid-cols-2 mt-4 gap-2">
+                    <Link
+                        class="btn btn-secondary"
+                        href="/"
+                    >Go Back
+                    </Link>
+                    <button
+                        class="btn btn-primary w-full"
+                        type="submit">Submit
+                    </button>
+                </div>
             </form>
         </div>
     </div>
 </template>
 
 <script>
-import Base from "./Layout/Base";
 import {useForm} from "@inertiajs/inertia-vue3";
+import {Link} from "@inertiajs/inertia-vue3";
 
 export default {
-    layout: Base,
     setup() {
         const form = useForm({
             email: '',
@@ -43,6 +49,9 @@ export default {
         submit() {
             this.form.post('/login');
         }
+    },
+    components: {
+        Link
     }
 }
 </script>

@@ -1,22 +1,22 @@
 <template>
     <div class="bg-base-200 py-16 min-h-screen">
-        <div class="bg-white md:w-2/3 mx-1 md:mx-auto p-4 rounded-xl shadow-lg">
+        <div class="bg-white md:w-2/3 mx-1 md:mx-auto p-4 pb-8 rounded-xl shadow-lg">
             <div class="flex flex-col md:flex-row justify-between md:pl-2">
                 <div class="flex">
                     <h1 class="font-bold text-xl text-gray-700">All Payments</h1>
                 </div>
                 <input
                     v-model="search"
-                    class="mt-4 md:mt-0 shadow appearance-none border rounded h-9 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    class="input input-bordered max-w-md"
                     placeholder="Search for customers..."
                     type="text">
             </div>
             <div class="overflow-x-auto relative mt-6">
-                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <table class="w-full text-left text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
                         <th class="py-3 px-6" scope="col">
-                            Customer name
+                            Customer
                         </th>
                         <th class="py-3 px-6" scope="col">
                             Date
@@ -54,7 +54,7 @@
                 v-for="link in data.links"
                 :class="link.url ? '' : 'text-gray-400', link.active ? 'border-2 border-indigo-500' : ''"
                 :href="'/stripe' + link.url"
-                class="py-2 px-3 rounded bg-white m-1 shadow-lg"
+                class="py-2 px-3 rounded-[8px] bg-white m-1 shadow-lg"
                 preserve-scroll
                 v-html="link.label"
             />
@@ -96,7 +96,7 @@ export default {
     },
     watch: {
         search: debounce(function (value) {
-            Inertia.get('/stripe', {
+            Inertia.get('/admin/payments', {
                 search: value,
             }, {
                 preserveState: true,

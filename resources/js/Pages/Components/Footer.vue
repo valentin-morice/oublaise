@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer p-10 md:py-20 bg-gray-700 text-base-content">
+    <footer class="footer p-10 text-base md:py-20 bg-gray-700 text-base-content">
         <div class="mx-auto">
             <p class="text-gray-100 text-xl font-bold pt-4">Domaine d'Oublaise</p>
             <p class="text-gray-100">Un domaine d'exception, au coeur de l'Indre.</p>

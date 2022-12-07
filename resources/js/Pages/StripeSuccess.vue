@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-base-200 px-2 lg:px-0 py-8">
-        <div class="bg-white shadow-lg md:w-2/3 lg:w-1/3 mx-auto p-4 rounded-xl">
+    <div class="bg-base-200 px-2 lg:px-0 py-32">
+        <div class="bg-white shadow-lg max-w-md mx-auto p-4 rounded-xl">
             <ion-icon
                 class="mx-auto block py-2 text-6xl text-gray-700"
                 :name="

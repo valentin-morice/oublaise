@@ -1,6 +1,6 @@
 <template>
-    <div class="navbar bg-neutral text-neutral-content">
-        <div class="ml-auto">
+    <div class="bg-gray-700 p-3 flex justify-center">
+        <div>
             <slot></slot>
         </div>
     </div>
