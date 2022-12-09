@@ -1,12 +1,14 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ImageController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\StripeController;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 use Stripe\Stripe;
 use function App\Http\Controllers\calculateOrderAmount;
@@ -81,5 +83,12 @@ Route::get('/projects/{id}', function ($id) {
 
     return Inertia::render('ProjectShow', [
         'project' => $project,
+        'images' => $project->images
     ]);
 });
+
+// Image Routes ---------------------------------
+
+Route::post('/images/upload', [ImageController::class, 'store'])->middleware(['auth']);
+
+Route::delete('/images/upload', [ImageController::class, 'delete'])->middleware(['auth']);

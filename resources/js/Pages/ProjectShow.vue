@@ -3,24 +3,14 @@
         <div class="hero-content gap-32 flex-col lg:flex-row">
             <div class="w-5/6">
                 <div class="carousel shadow-lg w-full rounded-2xl">
-                    <div id="item1" class="carousel-item w-full">
-                        <img src="https://placeimg.com/600/400/arch" class="w-full"/>
-                    </div>
-                    <div id="item2" class="carousel-item w-full">
-                        <img src="https://placeimg.com/600/400/arch" class="w-full"/>
-                    </div>
-                    <div id="item3" class="carousel-item w-full">
-                        <img src="https://placeimg.com/600/400/arch" class="w-full"/>
-                    </div>
-                    <div id="item4" class="carousel-item w-full">
-                        <img src="https://placeimg.com/600/400/arch" class="w-full"/>
+                    <div v-for="image in images" :id="'item' + image.id" class="carousel-item w-full">
+                        <img :src="'/' + image.path" class="w-full"/>
                     </div>
                 </div>
                 <div class="flex justify-center w-full py-2 gap-2">
-                    <a href="#item1" class="btn btn-xs">1</a>
-                    <a href="#item2" class="btn btn-xs">2</a>
-                    <a href="#item3" class="btn btn-xs">3</a>
-                    <a href="#item4" class="btn btn-xs">4</a>
+                    <a v-for="(image, index) in images" :href="'#item' + image.id" class="btn btn-xs">
+                        {{ index + 1 }}
+                    </a>
                 </div>
             </div>
             <div>
@@ -67,6 +57,11 @@ import Base from "./Layout/Base";
 
 export default {
     layout: Base,
-    props: ['project']
+    props: ['project', 'images'],
+    data() {
+        return {
+            base: 1
+        }
+    }
 }
 </script>

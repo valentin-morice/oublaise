@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Image;
 use App\Models\Project;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 
 class ProjectController extends Controller
@@ -15,15 +17,22 @@ class ProjectController extends Controller
             'summary' => 'required',
             'cost' => 'numeric|required',
             'description' => 'required',
-            'id' => 'nullable'
+            'id' => 'nullable',
+            'images_id' => 'required|array|distinct'
         ]);
 
-        Project::create([
+        $project = Project::create([
             'title' => $attributes['title'],
             'summary' => $attributes['summary'],
             'total_cost' => $attributes['cost'],
             'description' => $attributes['description']
         ]);
+
+        foreach ($attributes['images_id'] as $id) {
+            Image::firstWhere('id', $id)->update([
+                'project_id' => $project->id
+            ]);
+        }
 
         return redirect('/admin/projects')->with(['message' => 'The project was created']);
     }
@@ -37,11 +46,20 @@ class ProjectController extends Controller
             'description' => '',
             'update' => false,
             'id' => null,
+            'images' => null
         ]);
     }
 
     public function index()
     {
+        $images = Image::where('project_id', 0)->get();
+
+        foreach ($images as $image) {
+            Storage::delete($image->path);
+        }
+
+        Image::where('project_id', 0)->delete();
+
         return Inertia::render('ProjectsIndex', [
             'projects' => Project::paginate(8)
         ]);
@@ -57,7 +75,8 @@ class ProjectController extends Controller
             'summary' => $project->summary,
             'description' => $project->description,
             'update' => true,
-            'id' => $project->id
+            'id' => $project->id,
+            'images' => $project->images,
         ]);
     }
 
@@ -68,7 +87,8 @@ class ProjectController extends Controller
             'summary' => 'required',
             'cost' => 'numeric|required',
             'description' => 'required',
-            'id' => 'required'
+            'id' => 'required',
+            'images_id' => 'required|array|distinct'
         ]);
 
         Project::firstWhere('id', $attributes['id'])->update([
@@ -77,6 +97,12 @@ class ProjectController extends Controller
             'total_cost' => $attributes['cost'],
             'description' => $attributes['description']
         ]);
+
+        foreach ($attributes['images_id'] as $id) {
+            Image::firstWhere('id', $id)->update([
+                'project_id' => Project::firstWhere('id', $attributes['id'])->id
+            ]);
+        }
 
         return redirect('/admin/projects')->with(['message' => 'The project was updated']);
     }
