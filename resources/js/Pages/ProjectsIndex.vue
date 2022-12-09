@@ -9,7 +9,7 @@
             <span>{{ $page.props.flash.message }}</span>
         </div>
     </div>
-    <div class="flex items-center justify-center flex-col h-screen bg-base-200" v-if="projects.length === 0">
+    <div class="flex items-center justify-center flex-col h-screen bg-base-200" v-if="projects.data.length === 0">
         <ion-icon name="close-circle-outline" class="text-8xl text-gray-400 mb-16"></ion-icon>
         <p class="text-center">It looks like you haven't created a project yet.<br>Create one now!</p>
         <Link href="projects/create" class="btn btn-primary mt-12">Create a Project</Link>
