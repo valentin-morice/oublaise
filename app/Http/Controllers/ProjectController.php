@@ -65,6 +65,13 @@ class ProjectController extends Controller
         ]);
     }
 
+    public function index_public()
+    {
+        return Inertia::render('ProjectsPublicIndex', [
+            'projects' => Project::paginate(8)->load('images'),
+        ]);
+    }
+
     public function edit($id)
     {
         $project = Project::firstWhere('id', $id);
@@ -88,7 +95,7 @@ class ProjectController extends Controller
             'cost' => 'numeric|required',
             'description' => 'required',
             'id' => 'required',
-            'images_id' => 'required|array|distinct'
+            'images_id' => 'nullable|array|distinct'
         ]);
 
         Project::firstWhere('id', $attributes['id'])->update([
@@ -98,10 +105,12 @@ class ProjectController extends Controller
             'description' => $attributes['description']
         ]);
 
-        foreach ($attributes['images_id'] as $id) {
-            Image::firstWhere('id', $id)->update([
-                'project_id' => Project::firstWhere('id', $attributes['id'])->id
-            ]);
+        if (!empty($attributes['images_id'])) {
+            foreach ($attributes['images_id'] as $id) {
+                Image::firstWhere('id', $id)->update([
+                    'project_id' => Project::firstWhere('id', $attributes['id'])->id
+                ]);
+            }
         }
 
         return redirect('/admin/projects')->with(['message' => 'The project was updated']);

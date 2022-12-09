@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { Link } from "@inertiajs/inertia-vue3";
+import {Link} from "@inertiajs/inertia-vue3";
 import Base from "./Layout/Base";
 
 export default {
@@ -47,6 +47,7 @@ export default {
             last_name: this.donation.last_name,
             email: this.donation.email,
             stripePK: this.donation.stripePK,
+            project: this.donation.project
         };
         initialize();
         checkStatus();
@@ -55,13 +56,13 @@ export default {
 
         // Fetches a payment intent and captures the client secret
         async function initialize() {
-            const { clientSecret } = await fetch("/stripe/create", {
+            const {clientSecret} = await fetch("/stripe/create", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(donation),
             }).then((r) => r.json());
 
-            vm.elements = vm.stripe.elements({ clientSecret });
+            vm.elements = vm.stripe.elements({clientSecret});
 
             const paymentElement = vm.elements.create("payment");
             paymentElement.mount("#payment-element");
@@ -77,7 +78,7 @@ export default {
                 return;
             }
 
-            const { paymentIntent } = await vm.stripe.retrievePaymentIntent(
+            const {paymentIntent} = await vm.stripe.retrievePaymentIntent(
                 clientSecret
             );
 
@@ -150,7 +151,7 @@ export default {
 
                 const mail = vm.donation.email;
 
-                const { error } = await vm.stripe.confirmPayment({
+                const {error} = await vm.stripe.confirmPayment({
                     elements,
                     confirmParams: {
                         // Make sure to change this to your payment completion page
@@ -209,8 +210,8 @@ form {
     min-width: 500px;
     align-self: center;
     box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
-        0px 2px 5px 0px rgba(50, 50, 93, 0.1),
-        0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+    0px 2px 5px 0px rgba(50, 50, 93, 0.1),
+    0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
     border-radius: 7px;
     padding: 40px;
 }

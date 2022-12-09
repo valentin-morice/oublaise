@@ -32,10 +32,14 @@ Route::get('/stripe/{id}', [StripeController::class, 'show'])->where('id', '[0-9
 
 Route::post('/stripe/create', [StripeController::class, 'create']);
 
+Route::webhooks('stripe/webhooks');
+
 // Payments Routes --------------------------------
 
 Route::get('/payment/create', function () {
-    return Inertia::render('PaymentCreate');
+    return Inertia::render('PaymentCreate', [
+        'projects' => \App\Models\Project::select('id', 'title')->get()
+    ]);
 });
 
 Route::post('/payment/create', [PaymentController::class, 'create']);
@@ -51,6 +55,9 @@ Route::post('/contact', [ContactController::class, 'store']);
 Route::get('/history', function () {
     return Inertia::render('HistoryPage');
 });
+
+Route::get('/projects', [ProjectController::class, 'index_public']);
+
 
 // Auth Routes -------------------------------------
 
@@ -81,9 +88,21 @@ Route::get('/projects/{id}', function ($id) {
 
     $project = \App\Models\Project::where('id', $id)->first();
 
+    function cal_percentage($num_amount, $num_total)
+    {
+        $count1 = $num_amount / $num_total;
+        $count2 = $count1 * 100;
+        $count = number_format($count2, 0);
+        return $count;
+    }
+
     return Inertia::render('ProjectShow', [
         'project' => $project,
-        'images' => $project->images
+        'images' => $project->images,
+        'payments' => [
+            'total' => $project->payments->sum('amount'),
+            'percentage' => cal_percentage($project->payments->sum('amount'), $project->total_cost)
+        ]
     ]);
 });
 

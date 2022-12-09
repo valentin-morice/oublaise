@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Payment;
+use App\Models\Temp;
 use Carbon\Carbon;
 use Error;
 use Illuminate\Http\Request;
@@ -76,33 +77,13 @@ class StripeController extends Controller
             []
         );
 
-        $duplicate = Payment::where('stripe_id', $request->query('payment_intent'))->first();
-
-        if ($duplicate) {
-            return redirect('/');
-        }
-
-        if (!\App\Models\Custom\Customer::where('email', $this->stripe->customers->retrieve($currentPayment->customer)->email)->first()) {
-            $customer = \App\Models\Custom\Customer::create([
-                'email' => $this->stripe->customers->retrieve($currentPayment->customer)->email,
-                'name' => $this->stripe->customers->retrieve($currentPayment->customer)->name,
-            ]);
-        } else {
-            $customer = \App\Models\Custom\Customer::where('email', $this->stripe->customers->retrieve($currentPayment->customer)->email)->first();
-        }
-
-        $payment = Payment::create([
-            'amount' => $currentPayment->amount / 100,
-            'stripe_id' => $request->query('payment_intent'),
-            'customer_id' => $customer->id,
-        ]);
-
+        $customer = $this->stripe->customers->retrieve($currentPayment->customer);
 
         return Inertia::render('StripeSuccess', [
             'data' => [
                 'customer' => $customer->name,
-                'amount' => $payment->amount,
-                'paymentId' => $payment->stripe_id,
+                'amount' => $currentPayment->amount,
+                'paymentId' => $currentPayment->id,
                 'status' => $currentPayment->status,
             ],
         ]);
@@ -112,14 +93,6 @@ class StripeController extends Controller
     {
         Stripe::setApiKey(getenv('STRIPE_SECRET_KEY'));
 
-        function calculateOrderAmount($amount): int
-        {
-            // Replace this constant with a calculation of the order's amount
-            // Calculate the order total on the server to prevent
-            // people from directly manipulating the amount on the client
-            return $amount * 100;
-        }
-
         header('Content-Type: application/json');
 
         try {
@@ -127,8 +100,6 @@ class StripeController extends Controller
             $jsonStr = file_get_contents('php://input');
             $jsonObj = json_decode($jsonStr);
 
-            // Alternatively, set up a webhook to listen for the payment_intent.succeeded event
-            // and attach the PaymentMethod to a new Customer
             $customer = Customer::create([
                 'name' => $jsonObj->{'first_name'} . ' ' . $jsonObj->{'last_name'},
                 'email' => $jsonObj->{'email'},
@@ -136,7 +107,7 @@ class StripeController extends Controller
 
             // Create a PaymentIntent with amount and currency
             $paymentIntent = PaymentIntent::create([
-                'amount' => calculateOrderAmount($jsonObj->{'amount'}),
+                'amount' => $jsonObj->{'amount'} * 100,
                 'customer' => $customer->id,
                 'setup_future_usage' => 'off_session',
                 'currency' => 'eur',
@@ -144,6 +115,12 @@ class StripeController extends Controller
                     'enabled' => true,
                 ],
             ]);
+
+            Temp::create([
+                'payment_id' => $paymentIntent->id,
+                'project_id' => $jsonObj->{'project'}
+            ]);
+
             $output = [
                 'clientSecret' => $paymentIntent->client_secret,
             ];

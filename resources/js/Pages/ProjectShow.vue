@@ -24,12 +24,13 @@
         <section class="bg-base-200 rounded-2xl p-6 w-5/6 mx-auto">
             <div class="flex justify-between items-end">
                 <h2 class="text-2xl font-bold">Collecté Jusqu'ici</h2>
-                <p class="text-xl text-gray-600"><span class="text-2xl text-gray-700 font-bold pr-2">1046,53€</span>sur
+                <p class="text-xl text-gray-600"><span
+                    class="text-2xl text-gray-700 font-bold pr-2">{{ payments.total }}€</span>sur
                     un
                     objectif de<span
                         class="text-2xl font-bold pl-2 text-gray-700">{{ project.total_cost }}€</span></p>
             </div>
-            <progress class="mt-6 progress progress-success w-full" value="10" max="100"></progress>
+            <progress class="mt-6 progress progress-success w-full" :value="payments.percentage" max="100"></progress>
         </section>
         <section class="mt-24 px-2 w-5/6 mx-auto">
             <h2 class="text-2xl font-bold">Description</h2>
@@ -57,7 +58,7 @@ import Base from "./Layout/Base";
 
 export default {
     layout: Base,
-    props: ['project', 'images'],
+    props: ['project', 'images', 'payments'],
     data() {
         return {
             base: 1

@@ -20,6 +20,8 @@
                 <textarea v-model="form.description" rows="6"
                           class="placeholder:text-base text-base resize-none textarea textarea-bordered w-full mt-4"
                           placeholder="Description"></textarea>
+                <p class="text-sm text-red-500 mt-1 ml-0.5" v-if="form.errors.description">
+                    {{ form.errors.description }}</p>
                 <div v-if="update" class="overflow-x-auto border-2 mt-4 text-sm rounded-[10px]">
                     <table class="table w-full">
                         <thead>
@@ -50,9 +52,10 @@
                           accepted-file-types="image/jpeg, image/png"
                           :credits="false"
                 >
+                    <p class="text-sm text-red-500 mt-1 ml-0.5" v-if="form.errors.images_id">
+                        {{ form.errors.images_id }}</p>
                 </FilePond>
-                <p class="text-sm text-red-500 mt-1 ml-0.5" v-if="form.errors.description">
-                    {{ form.errors.description }}</p>
+
                 <button type="submit" class="btn btn-primary mt-4 w-full">Submit</button>
             </form>
         </div>

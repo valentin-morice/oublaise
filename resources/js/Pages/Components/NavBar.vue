@@ -20,6 +20,9 @@
                     <li>
                         <Link href="/history">Histoire</Link>
                     </li>
+                    <li>
+                        <Link href="/projects">Projets</Link>
+                    </li>
                     <slot name="responsive"></slot>
                 </ul>
             </div>
@@ -37,6 +40,9 @@
                 </li>
                 <li>
                     <Link href="/history">Histoire</Link>
+                </li>
+                <li>
+                    <Link href="/projects">Projets</Link>
                 </li>
                 <slot></slot>
             </ul>

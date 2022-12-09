@@ -42,6 +42,11 @@
                         placeholder="Email"
                         type="email">
                     <p v-if="form.errors.email" class=" mt-1 text-sm text-red-500">{{ form.errors.email }}</p>
+                    <select v-model="form.project" class="select select-bordered w-full mt-3">
+                        <option disabled selected value="">Projet</option>
+                        <option value="0">Maintenance Générale</option>
+                        <option v-for="project in projects" :value="project.id">{{ project.title }}</option>
+                    </select>
                     <button
                         :disabled="form.processing"
                         class="btn btn-primary w-full mt-6"
@@ -71,6 +76,7 @@ export default {
             first_name: '',
             last_name: '',
             email: '',
+            project: '',
         })
         return {form}
     },
@@ -91,6 +97,7 @@ export default {
             }
             this.previousAmount = this.form.amount
         }
-    }
+    },
+    props: ['projects']
 }
 </script>
