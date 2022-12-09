@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-base-200 py-16 min-h-screen">
+    <div class="bg-base-200 pt-16 pb-28 min-h-screen">
         <div class="container md:w-[600px] lg:w-[1280px] md:mx-auto">
             <h1 class="text-4xl mx-4 font-bold">Découvrez Nos Projets</h1>
             <div v-for="project in projects" class="card mx-4 mt-12 lg:card-side bg-base-100 shadow-xl">

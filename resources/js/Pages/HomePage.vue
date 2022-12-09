@@ -54,7 +54,7 @@
                 src="/img/castle_outside.jpg"/>
         </div>
     </div>
-    <div class="hero py-32 bg-base-200">
+    <div id="contact" class="hero py-32 bg-base-200">
         <div class="hero-content flex-col gap-32 lg:flex-row-reverse">
             <div class="lg:ml-10 md:px-24 mb-8 lg:mb-0 lg:px-0">
                 <h2 class="text-xl uppercase font-bold text-gray-700">Nous Contacter</h2>

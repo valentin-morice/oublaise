@@ -22277,10 +22277,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Layout_Base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Layout/Base */ "./resources/js/Pages/Layout/Base.vue");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   layout: _Layout_Base__WEBPACK_IMPORTED_MODULE_0__["default"],
   props: ['project', 'images', 'payments'],
+  components: {
+    Link: _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.Link
+  },
   data: function data() {
     return {
       base: 1
@@ -23127,6 +23132,7 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, "En Savoir Plus", -1 /* HOISTED */);
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"container mx-auto my-32 lg:px-16 px-4\"><div class=\"lg:px-64 md:px-16 lg:text-center\"><h2 class=\"lg:text-4xl text-3xl font-bold\">Une Expérience Unique</h2><p class=\"pt-6\"> Le château d’Oublaise constitue un héritage remarquable. Vieux de plusieurs siècles, il a abrité au fil du temps nombre de différentes familles et communautés. Apprenez-en plus sur son histoire, et participez à sa conservation dès à présent </p></div></div><div class=\"bg-base-200 py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 lg:order-1 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\">À Propos</h2><p class=\"pt-3\"> S’étendant sur une surface de plus de quatre-vingt hectares, le domaine d’Oublaise est d’une nature polyvalente. Ses terres cultivables sont présentement exploitées par les propriétaires, et le château abrite un temple Hare Krishna accueillant chaque jour de nombreux visiteurs. </p></div><img class=\"order-1 max-w-xs md:max-w-md lg:order-2 mb-12 lg:mb-0 md:mb-24 lg:ml-auto lg:mr-0 mx-auto rounded-lg shadow-2xl\" src=\"/img/clean_field.jpeg\"></div></div><div class=\"py-32 lg:px-16\"><div class=\"grid grid-rows-2 grid-rows-1 lg:grid-cols-2 px-4 lg:px-20 items-center gap-x-4\"><div class=\"order-2 md:px-24 lg:px-0\"><h2 class=\"text-xl uppercase font-bold text-gray-700\">Le Château Aujourd’hui</h2><p class=\"pt-3\"> De nombreuses rénovations sont aujourd’hui nécessaires pour préserver tant le château que le domaine qui lui est associé, pour garantir la sécurité des invités et permettre aux generations futures de bénéficier de ce lieu hors-norme. </p></div><img class=\"order-1 max-w-xs md:max-w-md mb-12 lg:mb-0 mx-auto md:mb-24 lg:mr-auto lg:ml-0 rounded-lg shadow-2xl\" src=\"/img/castle_outside.jpg\"></div></div>", 3);
 var _hoisted_11 = {
+  id: "contact",
   "class": "hero py-32 bg-base-200"
 };
 var _hoisted_12 = {
@@ -23578,9 +23584,10 @@ var _hoisted_9 = {
 var _hoisted_10 = {
   "class": "py-6"
 };
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#description",
   "class": "btn btn-primary"
-}, "Learn More", -1 /* HOISTED */);
+}, "En Savoir Plus", -1 /* HOISTED */);
 var _hoisted_12 = {
   "class": "container w-[1280px] mx-auto my-32"
 };
@@ -23605,6 +23612,7 @@ var _hoisted_19 = {
 };
 var _hoisted_20 = ["value"];
 var _hoisted_21 = {
+  id: "description",
   "class": "mt-24 px-2 w-5/6 mx-auto"
 };
 var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
@@ -23625,16 +23633,14 @@ var _hoisted_26 = {
 var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-2xl font-bold"
 }, "Soutenir Ce Projet", -1 /* HOISTED */);
-var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_28 = {
   "class": "flex gap-2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  "class": "btn btn-secondary w-52"
-}, "Poser une Question"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  "class": "btn btn-primary w-40"
-}, "Faire un Don")], -1 /* HOISTED */);
-
+};
+var _hoisted_29 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Poser une Question");
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Faire un Don");
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ion_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ion-icon");
+  var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.images, function (image) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       id: 'item' + image.id,
@@ -23655,7 +23661,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 8 /* PROPS */, _hoisted_20)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_21, [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.description), 1 /* TEXT */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ion_icon, {
     name: "heart-outline",
     "class": "text-4xl rounded-xl"
-  }), _hoisted_27]), _hoisted_28])])])], 64 /* STABLE_FRAGMENT */);
+  }), _hoisted_27]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "/#contact",
+    "class": "btn btn-secondary w-52"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_29];
+    }),
+    _: 1 /* STABLE */
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: "/payment/create",
+    "class": "btn btn-primary w-40"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_30];
+    }),
+    _: 1 /* STABLE */
+  })])])])])], 64 /* STABLE_FRAGMENT */);
 }
 
 /***/ }),
@@ -23962,7 +23984,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-base-200 py-16 min-h-screen"
+  "class": "bg-base-200 pt-16 pb-28 min-h-screen"
 };
 var _hoisted_2 = {
   "class": "container md:w-[600px] lg:w-[1280px] md:mx-auto"

@@ -16,7 +16,7 @@
             <div>
                 <h1 class="text-3xl font-bold">{{ project.title }}</h1>
                 <p class="py-6">{{ project.summary }}</p>
-                <button class="btn btn-primary">Learn More</button>
+                <a href="#description" class="btn btn-primary">En Savoir Plus</a>
             </div>
         </div>
     </div>
@@ -32,7 +32,7 @@
             </div>
             <progress class="mt-6 progress progress-success w-full" :value="payments.percentage" max="100"></progress>
         </section>
-        <section class="mt-24 px-2 w-5/6 mx-auto">
+        <section id="description" class="mt-24 px-2 w-5/6 mx-auto">
             <h2 class="text-2xl font-bold">Description</h2>
             <p class="mt-4 whitespace-pre-line">
                 {{ project.description }}
@@ -45,8 +45,8 @@
                     <h2 class="text-2xl font-bold">Soutenir Ce Projet</h2>
                 </div>
                 <div class="flex gap-2">
-                    <button class="btn btn-secondary w-52">Poser une Question</button>
-                    <button class="btn btn-primary w-40">Faire un Don</button>
+                    <Link href="/#contact" class="btn btn-secondary w-52">Poser une Question</Link>
+                    <Link href="/payment/create" class="btn btn-primary w-40">Faire un Don</Link>
                 </div>
             </div>
         </section>
@@ -55,10 +55,14 @@
 
 <script>
 import Base from "./Layout/Base";
+import {Link} from "@inertiajs/inertia-vue3";
 
 export default {
     layout: Base,
     props: ['project', 'images', 'payments'],
+    components: {
+        Link
+    },
     data() {
         return {
             base: 1
